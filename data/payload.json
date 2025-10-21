@@ -1,0 +1,535 @@
+{
+  "event": "comment",
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3NjA5ODIzMDcsImV4cCI6MTc2MDk4MzIwNywiaXNzIjoiaHR0cDovL3B5cnVzLWlkZW50aXR5LXNlcnZlci5weXJ1cy1wcm9kLnN2Yy5jbHVzdGVyLmxvY2FsIiwiYXVkIjoicHVibGljYXBpIiwiY2xpZW50X2lkIjoiMTFGRjI4OTctRDNFMS00QjAwLUJCRjYtNDFCMzhDM0EwMDcyIiwic3ViIjoiMTI0NTM5MCIsImF1dGhfdGltZSI6MTc2MDk4MjMwNywiaWRwIjoibG9jYWwiLCJzZWNyZXQiOiJjOGE0ODAzNjRiYjI4ZmVjMTMyODFiMjc2ZTI2NTA5ZGQ5M2VhYmYxZTgzNjNiMmEzYWE5YjhhYTIyYTQyMWYzIiwidGltZXN0YW1wIjoiMTc2MDk4MzIwNyIsInNjb3BlIjpbInB1YmxpY2FwaSJdLCJhbXIiOlsicHdkIl19.EqRENrLxqnb3aVOSa6tH-pRMFNCm6uakF2dqgxtIhybwfILzCr2FQzmqnSwfOW9IBS2ZaeVk-81ZRP3cKUxPRQj5r8_iKaNixZcO58-6weADL5yT5MaeRH-nyfXnAfUb3AvnMCps77xFvCQ34J4wNbkeDWiDW4cRPWc3v-LHsOWNnE0eyyL4nCmtQ0pPwIOD24LIq07DDsrIoKaA5yYJLTlQydkWUP9ugKuk7cyTwa6B2u3Bf0Z1qhv9BL5bLHQhPjX8tCD4xQeqLuw3YcWum5_KQuhDfmipUqX8bIX3VkQOcptWp4jRb54Kjzi99ji5KuW4914KIbva7vGTRI5nwg",
+  "task_id": 313389055,
+  "user_id": 1245390,
+  "task": {
+    "id": 313389055,
+    "text": "Внешние обращения клиента Тесты:",
+    "formatted_text": "Внешние обращения клиента Тесты:",
+    "create_date": "2025-10-20T16:45:51Z",
+    "last_modified_date": "2025-10-20T17:45:07Z",
+    "author": {
+      "id": 1239753,
+      "first_name": "Тимур",
+      "last_name": "Ильясов",
+      "email": "Timurilyasov95@gmail.com",
+      "type": "user",
+      "banned": false,
+      "rights": 6143
+    },
+    "list_ids": [
+      2351567
+    ],
+    "subscribers": [
+      {
+        "person": {
+          "id": 1245390,
+          "first_name": "Бот",
+          "last_name": "",
+          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
+          "type": "bot",
+          "banned": false,
+          "rights": 8191
+        }
+      }
+    ],
+    "form_id": 2351567,
+    "approvals": [
+      [
+        {
+          "person": {
+            "id": 1239753,
+            "first_name": "Тимур",
+            "last_name": "Ильясов",
+            "email": "Timurilyasov95@gmail.com",
+            "type": "user",
+            "banned": false,
+            "rights": 6143
+          },
+          "approval_choice": "approved"
+        }
+      ],
+      [
+        {
+          "person": {
+            "id": 1239753,
+            "first_name": "Тимур",
+            "last_name": "Ильясов",
+            "email": "Timurilyasov95@gmail.com",
+            "type": "user",
+            "banned": false,
+            "rights": 6143
+          },
+          "approval_choice": "waiting"
+        }
+      ]
+    ],
+    "current_step": 2,
+    "attachments": [
+      {
+        "id": 394943615,
+        "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
+        "size": 13266,
+        "version": 1,
+        "md5": "84213FEFD49E4C39037522013C8BD9D6",
+        "url": "https://pyrus.com/services/attachment?id=394943615"
+      },
+      {
+        "id": 394943616,
+        "name": "Акт проверки состояния рабочего места.docx",
+        "size": 16258,
+        "version": 1,
+        "md5": "2BEF9278E455CF773162F8954AF35003",
+        "url": "https://pyrus.com/services/attachment?id=394943616"
+      },
+      {
+        "id": 394943673,
+        "name": "Акт проверки состояния рабочего места.docx",
+        "size": 16258,
+        "version": 1,
+        "md5": "2BEF9278E455CF773162F8954AF35003",
+        "url": "https://pyrus.com/services/attachment?id=394943673"
+      }
+    ],
+    "linked_task_ids": [
+      308438769
+    ],
+    "fields": [
+      {
+        "id": 1,
+        "type": "author",
+        "name": "Автор",
+        "tooltip": "",
+        "value": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        }
+      },
+      {
+        "id": 2,
+        "type": "creation_date",
+        "name": "Дата создания",
+        "tooltip": "",
+        "value": "2025-10-20"
+      },
+      {
+        "id": 3,
+        "type": "step",
+        "name": "Этап",
+        "tooltip": "",
+        "value": 2
+      },
+      {
+        "id": 30,
+        "type": "note",
+        "name": "Информация о клиенте",
+        "tooltip": "Информация о клиенте",
+        "value": "Информация о клиенте"
+      },
+      {
+        "id": 25,
+        "type": "form_link",
+        "name": "Клиент",
+        "tooltip": "",
+        "value": {
+          "task_id": 308438769,
+          "task_ids": [
+            308438769
+          ],
+          "subject": "Клиенты: Иванов И.И."
+        }
+      },
+      {
+        "id": 26,
+        "type": "text",
+        "name": "ФИО",
+        "tooltip": "",
+        "code": "SenderName",
+        "value": "Иванов И.И."
+      },
+      {
+        "id": 27,
+        "type": "text",
+        "name": "Телефон",
+        "tooltip": "",
+        "value": "+7 (111) (111) (111)"
+      },
+      {
+        "id": 28,
+        "type": "text",
+        "name": "Телеграмм Аккаунт",
+        "tooltip": "",
+        "value": "acc"
+      },
+      {
+        "id": 29,
+        "type": "text",
+        "name": "Телеграмм ID",
+        "tooltip": "",
+        "value": "12345"
+      },
+      {
+        "id": 10,
+        "type": "text",
+        "name": "Имя (TG ФИО)",
+        "tooltip": "",
+        "code": "Sender_Name"
+      },
+      {
+        "id": 5,
+        "type": "text",
+        "name": "Тема",
+        "tooltip": "",
+        "code": "Subject"
+      },
+      {
+        "id": 11,
+        "type": "email",
+        "name": "Эл. почта",
+        "tooltip": "",
+        "code": "Sender_Address"
+      },
+      {
+        "id": 8,
+        "type": "text",
+        "name": "Описание",
+        "tooltip": "",
+        "code": "Description"
+      },
+      {
+        "id": 9,
+        "type": "file",
+        "name": "Файлы",
+        "tooltip": "",
+        "code": "Attachments"
+      },
+      {
+        "id": 14,
+        "type": "multiple_choice",
+        "name": "Вид обращения",
+        "tooltip": ""
+      },
+      {
+        "id": 15,
+        "type": "text",
+        "name": "ID заказа",
+        "tooltip": ""
+      },
+      {
+        "id": 16,
+        "type": "checkmark",
+        "name": "Требуется дополнительное время на ответ от клиента",
+        "tooltip": "",
+        "value": "unchecked"
+      },
+      {
+        "id": 17,
+        "type": "person",
+        "name": "Ответственный",
+        "tooltip": ""
+      },
+      {
+        "id": 18,
+        "type": "person",
+        "name": "Передать другому менеджеру",
+        "tooltip": "Укажите менеджера, которому хотите передать задачу"
+      },
+      {
+        "id": 19,
+        "type": "checkmark",
+        "name": "Вернуть задачу всем менеджерам ОС",
+        "tooltip": "",
+        "value": "unchecked"
+      },
+      {
+        "id": 20,
+        "type": "multiple_choice",
+        "name": "Статус",
+        "tooltip": "",
+        "default_value": "2",
+        "code": "Status",
+        "value": {
+          "choice_id": 2,
+          "choice_ids": [
+            2
+          ],
+          "choice_names": [
+            "В работе"
+          ]
+        }
+      },
+      {
+        "id": 21,
+        "type": "multiple_choice",
+        "name": "Оценка",
+        "tooltip": "",
+        "code": "Rating"
+      },
+      {
+        "id": 22,
+        "type": "text",
+        "name": "Комментарий к оценке",
+        "tooltip": "",
+        "code": "Rating Comment"
+      },
+      {
+        "id": 23,
+        "type": "date",
+        "name": "Дата оценки",
+        "tooltip": "",
+        "code": "Rating Date"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "name": "Получение заявки в очереди",
+        "elapsed_time": 1806
+      },
+      {
+        "step": 2,
+        "name": "Получение заявки",
+        "elapsed_time": 3554048
+      }
+    ],
+    "comments": [
+      {
+        "id": 2695238815,
+        "text": "Внешние обращения клиента Тесты",
+        "formatted_text": "Внешние обращения клиента Тесты",
+        "create_date": "2025-10-20T16:45:51Z",
+        "author": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        },
+        "added_list_ids": [
+          2351567
+        ],
+        "reassigned_to": {
+          "id": 1730,
+          "first_name": "",
+          "last_name": "Pyrus.com",
+          "type": "user"
+        },
+        "field_updates": [
+          {
+            "id": 25,
+            "type": "form_link",
+            "name": "Клиент",
+            "tooltip": "",
+            "value": {
+              "task_id": 308438769,
+              "task_ids": [
+                308438769
+              ],
+              "subject": "Клиенты: Иванов И.И."
+            }
+          },
+          {
+            "id": 26,
+            "type": "text",
+            "name": "ФИО",
+            "tooltip": "",
+            "code": "SenderName",
+            "value": "Иванов И.И."
+          },
+          {
+            "id": 27,
+            "type": "text",
+            "name": "Телефон",
+            "tooltip": "",
+            "value": "+7 (111) (111) (111)"
+          },
+          {
+            "id": 28,
+            "type": "text",
+            "name": "Телеграмм Аккаунт",
+            "tooltip": "",
+            "value": "acc"
+          },
+          {
+            "id": 29,
+            "type": "text",
+            "name": "Телеграмм ID",
+            "tooltip": "",
+            "value": "12345"
+          },
+          {
+            "id": 20,
+            "type": "multiple_choice",
+            "name": "Статус",
+            "tooltip": "",
+            "default_value": "2",
+            "code": "Status",
+            "value": {
+              "choice_id": 2,
+              "choice_ids": [
+                2
+              ],
+              "choice_names": [
+                "В работе"
+              ]
+            }
+          }
+        ],
+        "approvals_added": [
+          [
+            {
+              "person": {
+                "id": 1239753,
+                "first_name": "Тимур",
+                "last_name": "Ильясов",
+                "email": "Timurilyasov95@gmail.com",
+                "type": "user",
+                "banned": false,
+                "rights": 6143
+              },
+              "step": 1
+            }
+          ]
+        ],
+        "subscribers_added": [
+          {
+            "id": 1245390,
+            "first_name": "Бот",
+            "last_name": "",
+            "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
+            "type": "bot",
+            "banned": false,
+            "rights": 8191
+          }
+        ]
+      },
+      {
+        "id": 2695238848,
+        "create_date": "2025-10-20T16:45:53Z",
+        "author": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        },
+        "approval_choice": "approved",
+        "changed_step": 2,
+        "approvals_added": [
+          [
+            {
+              "person": {
+                "id": 1239753,
+                "first_name": "Тимур",
+                "last_name": "Ильясов",
+                "email": "Timurilyasov95@gmail.com",
+                "type": "user",
+                "banned": false,
+                "rights": 6143
+              },
+              "step": 2
+            }
+          ]
+        ]
+      },
+      {
+        "id": 2695238929,
+        "text": "Чат открыт.",
+        "formatted_text": "",
+        "create_date": "2025-10-20T16:45:57Z",
+        "author": {
+          "id": 1245390,
+          "first_name": "Бот",
+          "last_name": "",
+          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
+          "type": "bot",
+          "banned": false,
+          "rights": 8191
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Иванов И.И."
+          }
+        }
+      },
+      {
+        "id": 2695315020,
+        "create_date": "2025-10-20T17:44:26Z",
+        "author": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Иванов И.И."
+          }
+        },
+        "attachments": [
+          {
+            "id": 394943615,
+            "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
+            "size": 13266,
+            "version": 1,
+            "md5": "84213FEFD49E4C39037522013C8BD9D6",
+            "url": "https://pyrus.com/services/attachment?id=394943615"
+          },
+          {
+            "id": 394943616,
+            "name": "Акт проверки состояния рабочего места.docx",
+            "size": 16258,
+            "version": 1,
+            "md5": "2BEF9278E455CF773162F8954AF35003",
+            "url": "https://pyrus.com/services/attachment?id=394943616"
+          }
+        ]
+      },
+      {
+        "id": 2695315850,
+        "create_date": "2025-10-20T17:45:07Z",
+        "author": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Иванов И.И."
+          }
+        },
+        "attachments": [
+          {
+            "id": 394943673,
+            "name": "Акт проверки состояния рабочего места.docx",
+            "size": 16258,
+            "version": 1,
+            "md5": "2BEF9278E455CF773162F8954AF35003",
+            "url": "https://pyrus.com/services/attachment?id=394943673"
+          }
+        ]
+      }
+    ],
+    "is_closed": false
+  }
+}
