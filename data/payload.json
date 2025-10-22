@@ -1,6 +1,6 @@
 {
   "event": "comment",
-  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3NjEwNzQzMjMsImV4cCI6MTc2MTA3NTIyMywiaXNzIjoiaHR0cDovL3B5cnVzLWlkZW50aXR5LXNlcnZlci5weXJ1cy1wcm9kLnN2Yy5jbHVzdGVyLmxvY2FsIiwiYXVkIjoicHVibGljYXBpIiwiY2xpZW50X2lkIjoiMTFGRjI4OTctRDNFMS00QjAwLUJCRjYtNDFCMzhDM0EwMDcyIiwic3ViIjoiMTI0NTM5MCIsImF1dGhfdGltZSI6MTc2MTA3NDMyMywiaWRwIjoibG9jYWwiLCJzZWNyZXQiOiIyNGFkMDBjMTNkMzlhZmVmMjlhODgxZDJmZmJlNmI1ZDYyMjQ3ODA4NWU1ZjBiOTMxNmNlODE0NGVlZGM1NjEyIiwidGltZXN0YW1wIjoiMTc2MTA3NTIyMyIsInNjb3BlIjpbInB1YmxpY2FwaSJdLCJhbXIiOlsicHdkIl19.Sc-FDmLk6Y6iBT1BiLjGfZNeBz9lOmjdkDC9bPRK6CR_3F0W0a5_ItYWLme-tBnUwtY7S9yNppmCA8iiP-c9aL4mqG_J5d_GZeIljS-FL9EmnmZT5ltOi9Ldq2DFjgWzzyMhCiZ1LwQpGRP8Z-KvwMPAqMlc3fxAPQ06o3az-_HZqtgvYD4Nz_-A_o_-RzkTz4KS5PXwDCk-zcsQBNgJoRMnoDDGCQ9DetUp6mFSgsoWnnffTIppA9a8dWCQDDrHrr23HOnlEl-SH1J-bK2Dqy_m9oOO-mjcXBmTFPxL7o5rLVjSsUtKh4CUyGpM2RCL20uV621sNAPk_DOVFkyJKQ",
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3NjExMDI3NjMsImV4cCI6MTc2MTEwMzY2MywiaXNzIjoiaHR0cDovL3B5cnVzLWlkZW50aXR5LXNlcnZlci5weXJ1cy1wcm9kLnN2Yy5jbHVzdGVyLmxvY2FsIiwiYXVkIjoicHVibGljYXBpIiwiY2xpZW50X2lkIjoiMTFGRjI4OTctRDNFMS00QjAwLUJCRjYtNDFCMzhDM0EwMDcyIiwic3ViIjoiMTI0NTM5MCIsImF1dGhfdGltZSI6MTc2MTEwMjc2MywiaWRwIjoibG9jYWwiLCJzZWNyZXQiOiI0ZWUxNThjYTI0NmUwNDcwNDdlNzYwMzhmYTFiY2RmODNmYTY0NWUwMDc5MGUyMTQ2ZmFkOWU3MTRkMzg0MGQzIiwidGltZXN0YW1wIjoiMTc2MTEwMzY2MyIsInNjb3BlIjpbInB1YmxpY2FwaSJdLCJhbXIiOlsicHdkIl19.djqC8WGijDtwYo8MMt2S7zwup4a5qQ_UYHKWUWBc_zuWIyccRhruCSjG5P3KEx7P05-48LMSKeplt_Dbab0Y-lRB9i8YSo0COY2UHjrFlWFzBFn2-0XuKPz-Q4G4dmOgGT89hVtY7yUKRmoiqA1DY4-wwYz6y0OwcyhqgzU0pu7i60ArGqtlYCak6onQB-qfSS3jAws7edpkOvNITx4Yx3lhZIkdEwUgkHFoJEohjTb5u0RN9mwu53bm_h_AymGk0-kvF0KWoy4n9vc8uzG-rNj88MUQ3vgBUA6uYpzBaxbUIlixXQ--jtCcGK77b_2TCatetWfyuEWNJv0TlXG9dg",
   "task_id": 313389055,
   "user_id": 1245390,
   "task": {
@@ -8,7 +8,7 @@
     "text": "Внешние обращения клиента Тесты:",
     "formatted_text": "Внешние обращения клиента Тесты:",
     "create_date": "2025-10-20T16:45:51Z",
-    "last_modified_date": "2025-10-21T19:18:43Z",
+    "last_modified_date": "2025-10-22T03:12:43Z",
     "author": {
       "id": 1239753,
       "first_name": "Тимур",
@@ -434,6 +434,14 @@
         "version": 1,
         "md5": "66C4B413EFCF611DC4B2DC7DEBF72433",
         "url": "https://pyrus.com/services/attachment?id=395197642"
+      },
+      {
+        "id": 395211641,
+        "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
+        "size": 13266,
+        "version": 1,
+        "md5": "84213FEFD49E4C39037522013C8BD9D6",
+        "url": "https://pyrus.com/services/attachment?id=395211641"
       }
     ],
     "linked_task_ids": [
@@ -639,7 +647,7 @@
       {
         "step": 2,
         "name": "Получение заявки",
-        "elapsed_time": 95569818
+        "elapsed_time": 124010169
       }
     ],
     "comments": [
@@ -1683,6 +1691,119 @@
             "url": "https://pyrus.com/services/attachment?id=395197642"
           }
         ]
+      },
+      {
+        "id": 2697604205,
+        "text": "890",
+        "formatted_text": "890",
+        "create_date": "2025-10-22T03:10:55Z",
+        "author": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Иванов И.И."
+          }
+        }
+      },
+      {
+        "id": 2697604500,
+        "create_date": "2025-10-22T03:11:24Z",
+        "author": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Иванов И.И."
+          }
+        },
+        "attachments": [
+          {
+            "id": 395211641,
+            "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
+            "size": 13266,
+            "version": 1,
+            "md5": "84213FEFD49E4C39037522013C8BD9D6",
+            "url": "https://pyrus.com/services/attachment?id=395211641"
+          }
+        ]
+      },
+      {
+        "id": 2697604925,
+        "text": "2432",
+        "formatted_text": "2432",
+        "create_date": "2025-10-22T03:12:40Z",
+        "author": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Иванов И.И."
+          }
+        }
+      },
+      {
+        "id": 2697604931,
+        "text": "56456",
+        "formatted_text": "56456",
+        "create_date": "2025-10-22T03:12:42Z",
+        "author": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Иванов И.И."
+          }
+        }
+      },
+      {
+        "id": 2697604936,
+        "text": "1241",
+        "formatted_text": "1241",
+        "create_date": "2025-10-22T03:12:43Z",
+        "author": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Иванов И.И."
+          }
+        }
       }
     ],
     "is_closed": false

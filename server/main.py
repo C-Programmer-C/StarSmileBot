@@ -9,7 +9,7 @@ from config import conf_logger, settings
 from fastapi import FastAPI, Header, HTTPException, Request, status
 from fastapi.responses import JSONResponse
 import asyncio
-from pyrus_api_service import TokenManager
+from pyrus_api_service import get_token_manager
 from utils import download_files, find_value, open_chat, send_message_to_telegram_chat
 from contextlib import asynccontextmanager
 
@@ -186,7 +186,7 @@ async def process_webhook(
     attachments = last_comment.get("attachments")
 
     try:
-        token = await TokenManager().get_token()
+        token = await get_token_manager().get_token()
 
         files_info = None
 

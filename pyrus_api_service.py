@@ -8,6 +8,7 @@ from tenacity import retry, stop_after_attempt, wait_exponential
 
 logger = logging.getLogger(__name__)
 
+
 class TokenManager:
     def __init__(self):
         self._token: str | None = None
@@ -24,6 +25,7 @@ class TokenManager:
         async with self._lock:
             if self._token:
                 return self._token
+            
             await self._refresh_token()
 
             if not self._token:
@@ -58,6 +60,7 @@ token_manager: TokenManager | None = None
 
 
 def get_token_manager() -> TokenManager:
+    """Returns a singleton TokenManager instance."""
     global token_manager
     if token_manager is None:
         token_manager = TokenManager()
