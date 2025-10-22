@@ -24,8 +24,10 @@ class Settings(BaseSettings):
     
     LOGIN: str
     
-    MAX_FILE_SIZE: int 
-    
+    MAX_FILE_SIZE: int
+
+    BOT_TOKEN: str
+
     BASE_URL: str
 
     class Config:  

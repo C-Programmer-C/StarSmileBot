@@ -54,19 +54,29 @@ class TokenManager:
         """Resets the token if the error is 404"""
         self._token = None
 
-token_manager = TokenManager()
+token_manager: TokenManager | None = None
+
+
+def get_token_manager() -> TokenManager:
+    global token_manager
+    if token_manager is None:
+        token_manager = TokenManager()
+    return token_manager
 
 
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
 async def api_request(
     method: str,
-    endpoint: str,
+    endpoint: str = "",
+    url: Optional[str] = None,
     json_data: Optional[dict[str, Any]] = None,
     params: Optional[dict[str, Any]] = None,
-) -> dict[str, Any]:
+) -> dict[str, Any] | bytes:
     """Makes an API request to Pyrus"""
-    url = f"{settings.BASE_URL}{endpoint}"
-    token = await token_manager.get_token()
+
+    request_url = url if url else f"{settings.BASE_URL}{endpoint}"
+
+    token = await get_token_manager().get_token()
     headers = {
         "Authorization": f"Bearer {token}",
         "Content-Type": "application/json",
@@ -75,7 +85,7 @@ async def api_request(
     async with httpx.AsyncClient() as client:
         response = await client.request(
             method=method,
-            url=url,
+            url=request_url,
             headers=headers,
             json=json_data,
             params=params,
@@ -83,7 +93,11 @@ async def api_request(
         )
 
         if response.status_code == 401:
-            await token_manager.invalidate()
+            await get_token_manager().invalidate()
 
     response.raise_for_status()
+
+    if params and params.get("download"):
+        return response.content
+
     return response.json()

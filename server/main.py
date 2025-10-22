@@ -4,11 +4,13 @@ import json
 import logging
 from pathlib import Path
 from typing import Any, Optional
+from bot_client import BotClient
 from config import conf_logger, settings
 from fastapi import FastAPI, Header, HTTPException, Request, status
 from fastapi.responses import JSONResponse
 import asyncio
-from utils import open_chat
+from pyrus_api_service import TokenManager
+from utils import download_files, find_value, open_chat, send_message_to_telegram_chat
 from contextlib import asynccontextmanager
 
 logger = logging.getLogger(__name__)
@@ -181,15 +183,41 @@ async def process_webhook(
 
     text = last_comment.get("text", {})
 
-    message_id = last_comment.get("id")
-
     attachments = last_comment.get("attachments")
 
-    if attachments:
-        files_info = download_attachments_batch(attachments, access_token)
-        logger.info(
-            f"Task #{task_id} has attachments in the last comment #{message_id}"
-        )
+    try:
+        token = await TokenManager().get_token()
+
+        files_info = None
+
+        if attachments:
+            headers = {
+                "Authorization": f"Bearer {token}",
+                "Content-Type": "application/json",
+        }
+            files_info = await download_files(attachments, headers)
+
+        bot = BotClient.get_instance()
+        if not bot:
+            logger.error('Failed to get bot instance')
+            return JSONResponse(status_code=status.HTTP_200_OK, content={"error": "Failed to get bot instance"})
+        field_chat_id = settings.REQUEST_FORM_FIELDS.get("tg_id")
+        chat_id = find_value(fields, field_chat_id) if field_chat_id else None
+
+        if not chat_id:
+            logger.error("Chat ID not found in task fields")
+            return JSONResponse(status_code=status.HTTP_200_OK, content={"error": "Chat ID not found in task fields"})
+
+        try:
+            chat_id = int(str(chat_id).strip())
+        except (ValueError, TypeError) as e:
+            logger.exception("Unable to convert chat id to int: %r", chat_id, exc_info=e)
+            return JSONResponse(status_code=status.HTTP_200_OK, content={})
+
+        await send_message_to_telegram_chat(bot, chat_id, text, files_info)
+    except Exception as e:
+        logger.exception('Error when sending message to Telegram chat')
+        return JSONResponse(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR, content={"error": str(e)})
 
     return JSONResponse(status_code=status.HTTP_200_OK, content={})
 
