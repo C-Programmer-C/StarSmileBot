@@ -1,0 +1,235 @@
+2025-10-22 10:18:34,113 - [ERROR] - asyncio - (base_events.py).default_exception_handler(1865) - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000233DBB0F380>
+2025-10-22 10:18:58,350 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(566) - Start polling
+2025-10-22 10:18:58,549 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(363) - Run polling for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 10:19:09,419 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(594) - Polling stopped
+2025-10-22 10:19:09,435 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 10:19:09,451 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 10:19:09,714 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(395) - Polling stopped for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 10:19:27,809 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(566) - Start polling
+2025-10-22 10:19:27,989 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(363) - Run polling for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 10:19:49,882 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719724 is handled. Duration 852 ms by bot id=7919634763
+2025-10-22 10:22:44,228 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719725 is handled. Duration 283 ms by bot id=7919634763
+2025-10-22 10:25:12,297 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 10:25:12,298 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 10:25:24,279 - [INFO] - aiogram.dispatcher - (dispatcher.py)._listen_updates(233) - Connection established (tryings = 1, bot id = 7919634763)
+2025-10-22 10:47:38,948 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 10:47:38,960 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 10:47:50,623 - [INFO] - aiogram.dispatcher - (dispatcher.py)._listen_updates(233) - Connection established (tryings = 1, bot id = 7919634763)
+2025-10-22 10:50:46,440 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719726 is handled. Duration 696 ms by bot id=7919634763
+2025-10-22 10:50:53,295 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719727 is not handled. Duration 5 ms by bot id=7919634763
+2025-10-22 10:50:55,037 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719728 is not handled. Duration 4 ms by bot id=7919634763
+2025-10-22 10:52:52,586 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 10:52:52,588 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 10:53:04,359 - [INFO] - aiogram.dispatcher - (dispatcher.py)._listen_updates(233) - Connection established (tryings = 1, bot id = 7919634763)
+2025-10-22 11:01:47,687 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(594) - Polling stopped
+2025-10-22 11:01:47,692 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 11:01:47,692 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 11:01:47,957 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(395) - Polling stopped for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:02:05,547 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(566) - Start polling
+2025-10-22 11:02:05,700 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(363) - Run polling for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:02:15,286 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719732 is handled. Duration 732 ms by bot id=7919634763
+2025-10-22 11:02:16,724 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719733 is handled. Duration 179 ms by bot id=7919634763
+2025-10-22 11:02:17,416 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719734 is handled. Duration 217 ms by bot id=7919634763
+2025-10-22 11:02:17,606 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719735 is handled. Duration 190 ms by bot id=7919634763
+2025-10-22 11:02:17,818 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719736 is handled. Duration 213 ms by bot id=7919634763
+2025-10-22 11:02:18,021 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719738 is handled. Duration 173 ms by bot id=7919634763
+2025-10-22 11:02:18,262 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719737 is handled. Duration 546 ms by bot id=7919634763
+2025-10-22 11:02:18,446 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719739 is handled. Duration 485 ms by bot id=7919634763
+2025-10-22 11:02:18,479 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719740 is handled. Duration 179 ms by bot id=7919634763
+2025-10-22 11:02:18,619 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719741 is handled. Duration 163 ms by bot id=7919634763
+2025-10-22 11:02:18,760 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719742 is handled. Duration 150 ms by bot id=7919634763
+2025-10-22 11:02:18,873 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719743 is handled. Duration 154 ms by bot id=7919634763
+2025-10-22 11:02:18,995 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719744 is handled. Duration 138 ms by bot id=7919634763
+2025-10-22 11:02:19,108 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719745 is handled. Duration 136 ms by bot id=7919634763
+2025-10-22 11:02:19,237 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719746 is handled. Duration 143 ms by bot id=7919634763
+2025-10-22 11:02:19,448 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719747 is handled. Duration 202 ms by bot id=7919634763
+2025-10-22 11:02:19,633 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719748 is handled. Duration 189 ms by bot id=7919634763
+2025-10-22 11:02:19,757 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719749 is handled. Duration 204 ms by bot id=7919634763
+2025-10-22 11:02:19,882 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719750 is handled. Duration 208 ms by bot id=7919634763
+2025-10-22 11:02:19,993 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719751 is handled. Duration 188 ms by bot id=7919634763
+2025-10-22 11:02:20,127 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719752 is handled. Duration 157 ms by bot id=7919634763
+2025-10-22 11:02:21,214 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719753 is handled. Duration 240 ms by bot id=7919634763
+2025-10-22 11:44:59,727 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(594) - Polling stopped
+2025-10-22 11:45:00,086 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 11:45:00,107 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 11:45:00,627 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(395) - Polling stopped for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:49:58,753 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(566) - Start polling
+2025-10-22 11:49:58,907 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(363) - Run polling for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:50:15,419 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719754 is not handled. Duration 1 ms by bot id=7919634763
+2025-10-22 11:50:15,420 - [ERROR] - aiogram.event - (dispatcher.py)._process_update(315) - Cause exception while process update id=636719754 by bot id=7919634763
+TypeError: message_text_handler() missing 1 required positional argument: 'fsm'
+Traceback (most recent call last):
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+                 ~~~~~~~^^
+TypeError: message_text_handler() missing 1 required positional argument: 'fsm'
+2025-10-22 11:51:48,396 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(594) - Polling stopped
+2025-10-22 11:51:48,402 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 11:51:48,402 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 11:51:48,655 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(395) - Polling stopped for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:52:03,410 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(566) - Start polling
+2025-10-22 11:52:04,895 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(363) - Run polling for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:52:11,226 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719755 is not handled. Duration 40 ms by bot id=7919634763
+2025-10-22 11:52:11,227 - [ERROR] - aiogram.event - (dispatcher.py)._process_update(315) - Cause exception while process update id=636719755 by bot id=7919634763
+UnboundLocalError: cannot access local variable 'conn' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\StarSmileBot\db.py", line 35, in get_user
+    conn = db_connect()
+  File "C:\StarSmileBot\db.py", line 11, in db_connect
+    conn.execute("PRAGMA journal_mode=WAL;")
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        observer=observer, update_type=update_type, event=telegram_event, **data
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\.venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\StarSmileBot\handlers.py", line 26, in message_text_handler
+    user = get_user(tg_id)
+  File "C:\StarSmileBot\db.py", line 49, in get_user
+    conn.close()
+    ^^^^
+UnboundLocalError: cannot access local variable 'conn' where it is not associated with a value
+2025-10-22 11:52:39,348 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(594) - Polling stopped
+2025-10-22 11:52:39,350 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 11:52:39,351 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 11:52:39,508 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(395) - Polling stopped for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:52:59,707 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(566) - Start polling
+2025-10-22 11:52:59,841 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(363) - Run polling for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:53:05,243 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719756 is handled. Duration 22 ms by bot id=7919634763
+2025-10-22 11:53:35,147 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719757 is handled. Duration 22 ms by bot id=7919634763
+2025-10-22 11:54:05,268 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719758 is handled. Duration 11 ms by bot id=7919634763
+2025-10-22 11:54:59,691 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(594) - Polling stopped
+2025-10-22 11:54:59,694 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 11:54:59,696 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 11:54:59,966 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(395) - Polling stopped for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:55:17,490 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(566) - Start polling
+2025-10-22 11:55:17,671 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(363) - Run polling for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:55:21,507 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719759 is handled. Duration 14 ms by bot id=7919634763
+2025-10-22 11:55:47,295 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(594) - Polling stopped
+2025-10-22 11:55:47,297 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 11:55:47,300 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 11:55:47,553 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(395) - Polling stopped for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:56:00,906 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(566) - Start polling
+2025-10-22 11:56:01,112 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(363) - Run polling for bot @sched111_bot id=7919634763 - 'sched'
+2025-10-22 11:56:03,179 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719760 is handled. Duration 9 ms by bot id=7919634763
+2025-10-22 11:57:03,305 - [INFO] - aiogram.event - (dispatcher.py).feed_update(172) - Update id=636719761 is handled. Duration 10 ms by bot id=7919634763
+2025-10-22 11:58:14,726 - [INFO] - aiogram.dispatcher - (dispatcher.py).start_polling(594) - Polling stopped
+2025-10-22 11:58:14,731 - [ERROR] - aiogram.dispatcher - (dispatcher.py)._listen_updates(219) - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-10-22 11:58:14,733 - [WARNING] - aiogram.dispatcher - (dispatcher.py)._listen_updates(221) - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7919634763)
+2025-10-22 11:58:14,891 - [INFO] - aiogram.dispatcher - (dispatcher.py)._polling(395) - Polling stopped for bot @sched111_bot id=7919634763 - 'sched'

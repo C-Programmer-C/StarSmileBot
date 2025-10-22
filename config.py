@@ -1,5 +1,6 @@
 import logging
 import os
+from pathlib import Path
 import re
 import sys
 from logging.handlers import RotatingFileHandler
@@ -29,6 +30,8 @@ class Settings(BaseSettings):
     BOT_TOKEN: str
 
     BASE_URL: str
+
+    DATABASE_PATH: str
 
     class Config:  
         env_file = ".env"
