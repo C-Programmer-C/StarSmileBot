@@ -1,22 +1,22 @@
 {
   "event": "comment",
-  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3NjExMDI3NjMsImV4cCI6MTc2MTEwMzY2MywiaXNzIjoiaHR0cDovL3B5cnVzLWlkZW50aXR5LXNlcnZlci5weXJ1cy1wcm9kLnN2Yy5jbHVzdGVyLmxvY2FsIiwiYXVkIjoicHVibGljYXBpIiwiY2xpZW50X2lkIjoiMTFGRjI4OTctRDNFMS00QjAwLUJCRjYtNDFCMzhDM0EwMDcyIiwic3ViIjoiMTI0NTM5MCIsImF1dGhfdGltZSI6MTc2MTEwMjc2MywiaWRwIjoibG9jYWwiLCJzZWNyZXQiOiI0ZWUxNThjYTI0NmUwNDcwNDdlNzYwMzhmYTFiY2RmODNmYTY0NWUwMDc5MGUyMTQ2ZmFkOWU3MTRkMzg0MGQzIiwidGltZXN0YW1wIjoiMTc2MTEwMzY2MyIsInNjb3BlIjpbInB1YmxpY2FwaSJdLCJhbXIiOlsicHdkIl19.djqC8WGijDtwYo8MMt2S7zwup4a5qQ_UYHKWUWBc_zuWIyccRhruCSjG5P3KEx7P05-48LMSKeplt_Dbab0Y-lRB9i8YSo0COY2UHjrFlWFzBFn2-0XuKPz-Q4G4dmOgGT89hVtY7yUKRmoiqA1DY4-wwYz6y0OwcyhqgzU0pu7i60ArGqtlYCak6onQB-qfSS3jAws7edpkOvNITx4Yx3lhZIkdEwUgkHFoJEohjTb5u0RN9mwu53bm_h_AymGk0-kvF0KWoy4n9vc8uzG-rNj88MUQ3vgBUA6uYpzBaxbUIlixXQ--jtCcGK77b_2TCatetWfyuEWNJv0TlXG9dg",
-  "task_id": 313389055,
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3NjEzMTQ4ODMsImV4cCI6MTc2MTMxNTc4MywiaXNzIjoiaHR0cDovL3B5cnVzLWlkZW50aXR5LXNlcnZlci5weXJ1cy1wcm9kLnN2Yy5jbHVzdGVyLmxvY2FsIiwiYXVkIjoicHVibGljYXBpIiwiY2xpZW50X2lkIjoiMTFGRjI4OTctRDNFMS00QjAwLUJCRjYtNDFCMzhDM0EwMDcyIiwic3ViIjoiMTI0NTM5MCIsImF1dGhfdGltZSI6MTc2MTMxNDg4MywiaWRwIjoibG9jYWwiLCJzZWNyZXQiOiI5YzJjYjYwZGNmMGFjN2RlNzRlNDNkMjNiM2JlOGU2M2M2NDdmYzEzMTQ5MDkzMzU4ZTQ1NzQ3M2IyYjllNWE2IiwidGltZXN0YW1wIjoiMTc2MTMxNTc4MyIsInNjb3BlIjpbInB1YmxpY2FwaSJdLCJhbXIiOlsicHdkIl19.kZqcZlfXi5wmxPrCQpopEi9iWGZXsoMdPTirPNTOhPfb5R6Ej0EBqf-eX2zRLdD_d79z1hRBm0Ln-FCVtyctjgRCBtQbFhToC0_t_4TbgSpT65o_Tij7WoVWK_LaHQt3Xj5GRD8l3muVv8c3ungNv6oQKSbLenNuwfAQdqoV30pxK_IwudXLiWGdaqNk1V01yUnes6WpLEPwqF08jDRrdlIyW8Ci-e5M6K74tTMYudXn7dUZJQr21aBf-OBANcwZfSLuoYiQa4vSAVd1JxlJEPC7W6cHDca8CJF_G8EvY2yGOzlY1IOf6Cla6aEe0cHjcpnRTNJvpzvUukksHcIyBg",
+  "task_id": 314161932,
   "user_id": 1245390,
   "task": {
-    "id": 313389055,
+    "id": 314161932,
     "text": "Внешние обращения клиента Тесты:",
     "formatted_text": "Внешние обращения клиента Тесты:",
-    "create_date": "2025-10-20T16:45:51Z",
-    "last_modified_date": "2025-10-22T03:12:43Z",
+    "create_date": "2025-10-24T14:07:24Z",
+    "last_modified_date": "2025-10-24T14:08:03Z",
     "author": {
-      "id": 1239753,
-      "first_name": "Тимур",
-      "last_name": "Ильясов",
-      "email": "Timurilyasov95@gmail.com",
-      "type": "user",
+      "id": 1245390,
+      "first_name": "Бот",
+      "last_name": "",
+      "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
+      "type": "bot",
       "banned": false,
-      "rights": 6143
+      "rights": 8191
     },
     "list_ids": [
       2351567
@@ -66,387 +66,6 @@
       ]
     ],
     "current_step": 2,
-    "attachments": [
-      {
-        "id": 394943615,
-        "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-        "size": 13266,
-        "version": 1,
-        "md5": "84213FEFD49E4C39037522013C8BD9D6",
-        "url": "https://pyrus.com/services/attachment?id=394943615"
-      },
-      {
-        "id": 394943616,
-        "name": "Акт проверки состояния рабочего места.docx",
-        "size": 16258,
-        "version": 1,
-        "md5": "2BEF9278E455CF773162F8954AF35003",
-        "url": "https://pyrus.com/services/attachment?id=394943616"
-      },
-      {
-        "id": 394943673,
-        "name": "Акт проверки состояния рабочего места.docx",
-        "size": 16258,
-        "version": 1,
-        "md5": "2BEF9278E455CF773162F8954AF35003",
-        "url": "https://pyrus.com/services/attachment?id=394943673"
-      },
-      {
-        "id": 395189922,
-        "name": "Заявление.docx",
-        "size": 12948,
-        "version": 1,
-        "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-        "url": "https://pyrus.com/services/attachment?id=395189922"
-      },
-      {
-        "id": 395189923,
-        "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-        "size": 13266,
-        "version": 1,
-        "md5": "84213FEFD49E4C39037522013C8BD9D6",
-        "url": "https://pyrus.com/services/attachment?id=395189923"
-      },
-      {
-        "id": 395189924,
-        "name": "Акт проверки состояния рабочего места.docx",
-        "size": 16258,
-        "version": 1,
-        "md5": "2BEF9278E455CF773162F8954AF35003",
-        "url": "https://pyrus.com/services/attachment?id=395189924"
-      },
-      {
-        "id": 395190945,
-        "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-        "size": 13266,
-        "version": 1,
-        "md5": "84213FEFD49E4C39037522013C8BD9D6",
-        "url": "https://pyrus.com/services/attachment?id=395190945"
-      },
-      {
-        "id": 395192858,
-        "name": "Акт проверки состояния рабочего места.docx",
-        "size": 16258,
-        "version": 1,
-        "md5": "2BEF9278E455CF773162F8954AF35003",
-        "url": "https://pyrus.com/services/attachment?id=395192858"
-      },
-      {
-        "id": 395193499,
-        "name": "Акт проверки состояния рабочего места.docx",
-        "size": 16258,
-        "version": 1,
-        "md5": "2BEF9278E455CF773162F8954AF35003",
-        "url": "https://pyrus.com/services/attachment?id=395193499"
-      },
-      {
-        "id": 395193563,
-        "name": "Заявление.docx",
-        "size": 12948,
-        "version": 1,
-        "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-        "url": "https://pyrus.com/services/attachment?id=395193563"
-      },
-      {
-        "id": 395193787,
-        "name": "Заявление.docx",
-        "size": 12948,
-        "version": 1,
-        "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-        "url": "https://pyrus.com/services/attachment?id=395193787"
-      },
-      {
-        "id": 395193854,
-        "name": "Заявление.docx",
-        "size": 12948,
-        "version": 1,
-        "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-        "url": "https://pyrus.com/services/attachment?id=395193854"
-      },
-      {
-        "id": 395196593,
-        "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-        "size": 13266,
-        "version": 1,
-        "md5": "84213FEFD49E4C39037522013C8BD9D6",
-        "url": "https://pyrus.com/services/attachment?id=395196593"
-      },
-      {
-        "id": 395196894,
-        "name": "Акт проверки состояния рабочего места.docx",
-        "size": 16258,
-        "version": 1,
-        "md5": "2BEF9278E455CF773162F8954AF35003",
-        "url": "https://pyrus.com/services/attachment?id=395196894"
-      },
-      {
-        "id": 395196987,
-        "name": "Акт проверки состояния рабочего места.docx",
-        "size": 16258,
-        "version": 1,
-        "md5": "2BEF9278E455CF773162F8954AF35003",
-        "url": "https://pyrus.com/services/attachment?id=395196987"
-      },
-      {
-        "id": 395197028,
-        "name": "Заявление.docx",
-        "size": 12948,
-        "version": 1,
-        "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-        "url": "https://pyrus.com/services/attachment?id=395197028"
-      },
-      {
-        "id": 395197029,
-        "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-        "size": 13266,
-        "version": 1,
-        "md5": "84213FEFD49E4C39037522013C8BD9D6",
-        "url": "https://pyrus.com/services/attachment?id=395197029"
-      },
-      {
-        "id": 395197068,
-        "name": "ТЕСТ 312170815_АКТ комплексных испытаний СПС и СОУЭ_20251017080736.docx",
-        "size": 16813,
-        "version": 1,
-        "md5": "94A68AF6EC725C41D66E71F07F053F11",
-        "url": "https://pyrus.com/services/attachment?id=395197068"
-      },
-      {
-        "id": 395197069,
-        "name": "АКТ комплексных испытаний СПС и СОУЭ.docx",
-        "size": 18045,
-        "version": 1,
-        "md5": "9F0FCCB8111E29B7253DBA12397E1C20",
-        "url": "https://pyrus.com/services/attachment?id=395197069"
-      },
-      {
-        "id": 395197070,
-        "name": "АПО.docx",
-        "size": 105959,
-        "version": 1,
-        "md5": "32237D94C3CF12A5470ADF1EC5FFE927",
-        "url": "https://pyrus.com/services/attachment?id=395197070"
-      },
-      {
-        "id": 395197071,
-        "name": "ТЗ Техническое задание12345.docx",
-        "size": 66809,
-        "version": 1,
-        "md5": "70D59D93DD86B0CE8C98CE7E14B40911",
-        "url": "https://pyrus.com/services/attachment?id=395197071"
-      },
-      {
-        "id": 395197072,
-        "name": "Практическая часть.docx",
-        "size": 103825,
-        "version": 1,
-        "md5": "66C4B413EFCF611DC4B2DC7DEBF72433",
-        "url": "https://pyrus.com/services/attachment?id=395197072"
-      },
-      {
-        "id": 395197073,
-        "name": "ТЗ Техническое задание.docx",
-        "size": 62248,
-        "version": 1,
-        "md5": "F96D0222980407C29A6E0AAD90AC1DE3",
-        "url": "https://pyrus.com/services/attachment?id=395197073"
-      },
-      {
-        "id": 395197074,
-        "name": "Prilozhenie-_2-_-Tekhnicheskoe-zadanie.docx",
-        "size": 289654,
-        "version": 1,
-        "md5": "4D7941E477589332DE93731F4DEF43B9",
-        "url": "https://pyrus.com/services/attachment?id=395197074"
-      },
-      {
-        "id": 395197075,
-        "name": "Техническое_задание_SCADA.docx",
-        "size": 35104,
-        "version": 1,
-        "md5": "DFB577EEBD02C4D52508383F75B99F42",
-        "url": "https://pyrus.com/services/attachment?id=395197075"
-      },
-      {
-        "id": 395197076,
-        "name": "Java_руководство_для_начинающих_9_е_издание_Герберт_Шилдт.pdf",
-        "size": 144065946,
-        "version": 1,
-        "md5": "54DD6FEEAA13AE933F85EE01C1B12403",
-        "url": "https://pyrus.com/services/attachment?id=395197076"
-      },
-      {
-        "id": 395197077,
-        "name": "307937351_Акт проверки АКБ (шаблон)_20251014055033.docx",
-        "size": 16180,
-        "version": 1,
-        "md5": "D4EFF4BED2984E1FC39F66128C68A399",
-        "url": "https://pyrus.com/services/attachment?id=395197077"
-      },
-      {
-        "id": 395197078,
-        "name": "Диаграмма.drawio",
-        "size": 18843,
-        "version": 1,
-        "md5": "C07E9E68AA50D902DA61F8B3693788F1",
-        "url": "https://pyrus.com/services/attachment?id=395197078"
-      },
-      {
-        "id": 395197079,
-        "name": "13.10.2025 Занятие 3.docx",
-        "size": 14803,
-        "version": 1,
-        "md5": "8E963C2C692F77E6AC249350B3E2A7EB",
-        "url": "https://pyrus.com/services/attachment?id=395197079"
-      },
-      {
-        "id": 395197080,
-        "name": "13.10.2025 Занятие 2.docx",
-        "size": 14614,
-        "version": 1,
-        "md5": "27C02CC2E04AAA928B234A75067A0200",
-        "url": "https://pyrus.com/services/attachment?id=395197080"
-      },
-      {
-        "id": 395197081,
-        "name": "13.10.2025 Занятие 1.docx",
-        "size": 14783,
-        "version": 1,
-        "md5": "878D311A6CF5F17906FA3D733D871D78",
-        "url": "https://pyrus.com/services/attachment?id=395197081"
-      },
-      {
-        "id": 395197379,
-        "name": "Test.docx",
-        "size": 21450,
-        "version": 1,
-        "md5": "C5E7937B4BB483D74ECBB5FF8019047B",
-        "url": "https://pyrus.com/services/attachment?id=395197379"
-      },
-      {
-        "id": 395197380,
-        "name": "222222222222222222222222222222.docx",
-        "size": 17425,
-        "version": 1,
-        "md5": "352132E17AE27AEF53939BE84A62F518",
-        "url": "https://pyrus.com/services/attachment?id=395197380"
-      },
-      {
-        "id": 395197381,
-        "name": "output.docx",
-        "size": 22588,
-        "version": 1,
-        "md5": "773E644958A2787A49EEA8E1EBF9EB30",
-        "url": "https://pyrus.com/services/attachment?id=395197381"
-      },
-      {
-        "id": 395197382,
-        "name": "1111111111.docx",
-        "size": 17787,
-        "version": 1,
-        "md5": "C0E305C94D58A6D1F42126438210A11C",
-        "url": "https://pyrus.com/services/attachment?id=395197382"
-      },
-      {
-        "id": 395197383,
-        "name": "signature (3).png",
-        "size": 6356,
-        "version": 1,
-        "md5": "38AB5FF7C986AE6C0B392147195C482E",
-        "url": "https://pyrus.com/services/attachment?id=395197383"
-      },
-      {
-        "id": 395197614,
-        "name": "Заявление.docx",
-        "size": 12948,
-        "version": 1,
-        "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-        "url": "https://pyrus.com/services/attachment?id=395197614"
-      },
-      {
-        "id": 395197615,
-        "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-        "size": 13266,
-        "version": 1,
-        "md5": "84213FEFD49E4C39037522013C8BD9D6",
-        "url": "https://pyrus.com/services/attachment?id=395197615"
-      },
-      {
-        "id": 395197616,
-        "name": "Акт проверки состояния рабочего места.docx",
-        "size": 16258,
-        "version": 1,
-        "md5": "2BEF9278E455CF773162F8954AF35003",
-        "url": "https://pyrus.com/services/attachment?id=395197616"
-      },
-      {
-        "id": 395197617,
-        "name": "Акт обследования рабочих мест.pdf",
-        "size": 176870,
-        "version": 1,
-        "md5": "500F1461FE5468E8FB9E8FBE3EC502F1",
-        "url": "https://pyrus.com/services/attachment?id=395197617"
-      },
-      {
-        "id": 395197618,
-        "name": "photo_2025-10-08_13-15-33.jpg",
-        "size": 168350,
-        "version": 1,
-        "md5": "8CE01E1311996508717DDE31C61FC427",
-        "url": "https://pyrus.com/services/attachment?id=395197618"
-      },
-      {
-        "id": 395197638,
-        "name": "ТЕСТ 312170815_АКТ комплексных испытаний СПС и СОУЭ_20251017080736.docx",
-        "size": 16813,
-        "version": 1,
-        "md5": "94A68AF6EC725C41D66E71F07F053F11",
-        "url": "https://pyrus.com/services/attachment?id=395197638"
-      },
-      {
-        "id": 395197639,
-        "name": "АКТ комплексных испытаний СПС и СОУЭ.docx",
-        "size": 18045,
-        "version": 1,
-        "md5": "9F0FCCB8111E29B7253DBA12397E1C20",
-        "url": "https://pyrus.com/services/attachment?id=395197639"
-      },
-      {
-        "id": 395197640,
-        "name": "АПО.docx",
-        "size": 105959,
-        "version": 1,
-        "md5": "32237D94C3CF12A5470ADF1EC5FFE927",
-        "url": "https://pyrus.com/services/attachment?id=395197640"
-      },
-      {
-        "id": 395197641,
-        "name": "ТЗ Техническое задание12345.docx",
-        "size": 66809,
-        "version": 1,
-        "md5": "70D59D93DD86B0CE8C98CE7E14B40911",
-        "url": "https://pyrus.com/services/attachment?id=395197641"
-      },
-      {
-        "id": 395197642,
-        "name": "Практическая часть.docx",
-        "size": 103825,
-        "version": 1,
-        "md5": "66C4B413EFCF611DC4B2DC7DEBF72433",
-        "url": "https://pyrus.com/services/attachment?id=395197642"
-      },
-      {
-        "id": 395211641,
-        "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-        "size": 13266,
-        "version": 1,
-        "md5": "84213FEFD49E4C39037522013C8BD9D6",
-        "url": "https://pyrus.com/services/attachment?id=395211641"
-      }
-    ],
-    "linked_task_ids": [
-      308438769
-    ],
     "fields": [
       {
         "id": 1,
@@ -454,13 +73,13 @@
         "name": "Автор",
         "tooltip": "",
         "value": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
+          "id": 1245390,
+          "first_name": "Бот",
+          "last_name": "",
+          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
+          "type": "bot",
           "banned": false,
-          "rights": 6143
+          "rights": 8191
         }
       },
       {
@@ -468,7 +87,7 @@
         "type": "creation_date",
         "name": "Дата создания",
         "tooltip": "",
-        "value": "2025-10-20"
+        "value": "2025-10-24"
       },
       {
         "id": 3,
@@ -478,46 +97,26 @@
         "value": 2
       },
       {
-        "id": 30,
-        "type": "note",
-        "name": "Информация о клиенте",
-        "tooltip": "Информация о клиенте",
-        "value": "Информация о клиенте"
-      },
-      {
-        "id": 25,
-        "type": "form_link",
-        "name": "Клиент",
-        "tooltip": "",
-        "value": {
-          "task_id": 308438769,
-          "task_ids": [
-            308438769
-          ],
-          "subject": "Клиенты: Иванов И.И."
-        }
-      },
-      {
         "id": 26,
         "type": "text",
         "name": "ФИО",
         "tooltip": "",
         "code": "SenderName",
-        "value": "Иванов И.И."
+        "value": "Михаил"
       },
       {
         "id": 27,
         "type": "text",
         "name": "Телефон",
         "tooltip": "",
-        "value": "+7 (111) (111) (111)"
+        "value": "+895678567"
       },
       {
         "id": 28,
         "type": "text",
         "name": "Телеграмм Аккаунт",
         "tooltip": "",
-        "value": "acc"
+        "value": "Russkiy_Monarhist"
       },
       {
         "id": 29,
@@ -525,13 +124,6 @@
         "name": "Телеграмм ID",
         "tooltip": "",
         "value": "5365230223"
-      },
-      {
-        "id": 10,
-        "type": "text",
-        "name": "Имя (TG ФИО)",
-        "tooltip": "",
-        "code": "Sender_Name"
       },
       {
         "id": 5,
@@ -642,28 +234,26 @@
       {
         "step": 1,
         "name": "Получение заявки в очереди",
-        "elapsed_time": 1806
+        "elapsed_time": 9631
       },
       {
         "step": 2,
         "name": "Получение заявки",
-        "elapsed_time": 124010169
+        "elapsed_time": 29457
       }
     ],
     "comments": [
       {
-        "id": 2695238815,
-        "text": "Внешние обращения клиента Тесты",
-        "formatted_text": "Внешние обращения клиента Тесты",
-        "create_date": "2025-10-20T16:45:51Z",
+        "id": 2702056751,
+        "create_date": "2025-10-24T14:07:24Z",
         "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
+          "id": 1245390,
+          "first_name": "Бот",
+          "last_name": "",
+          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
+          "type": "bot",
           "banned": false,
-          "rights": 6143
+          "rights": 8191
         },
         "added_list_ids": [
           2351567
@@ -676,46 +266,33 @@
         },
         "field_updates": [
           {
-            "id": 25,
-            "type": "form_link",
-            "name": "Клиент",
-            "tooltip": "",
-            "value": {
-              "task_id": 308438769,
-              "task_ids": [
-                308438769
-              ],
-              "subject": "Клиенты: Иванов И.И."
-            }
-          },
-          {
             "id": 26,
             "type": "text",
             "name": "ФИО",
             "tooltip": "",
             "code": "SenderName",
-            "value": "Иванов И.И."
+            "value": "Михаил"
           },
           {
             "id": 27,
             "type": "text",
             "name": "Телефон",
             "tooltip": "",
-            "value": "+7 (111) (111) (111)"
+            "value": "+895678567"
           },
           {
             "id": 28,
             "type": "text",
             "name": "Телеграмм Аккаунт",
             "tooltip": "",
-            "value": "acc"
+            "value": "Russkiy_Monarhist"
           },
           {
             "id": 29,
             "type": "text",
             "name": "Телеграмм ID",
             "tooltip": "",
-            "value": "12345"
+            "value": "5365230223"
           },
           {
             "id": 20,
@@ -764,8 +341,50 @@
         ]
       },
       {
-        "id": 2695238848,
-        "create_date": "2025-10-20T16:45:53Z",
+        "id": 2702056875,
+        "text": "Чат открыт.",
+        "formatted_text": "",
+        "create_date": "2025-10-24T14:07:27Z",
+        "author": {
+          "id": 1245390,
+          "first_name": "Бот",
+          "last_name": "",
+          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
+          "type": "bot",
+          "banned": false,
+          "rights": 8191
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Михаил"
+          }
+        }
+      },
+      {
+        "id": 2702056954,
+        "text": "1234567890",
+        "formatted_text": "",
+        "create_date": "2025-10-24T14:07:30Z",
+        "author": {
+          "id": 1245390,
+          "first_name": "Бот",
+          "last_name": "",
+          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
+          "type": "bot",
+          "banned": false,
+          "rights": 8191
+        },
+        "channel": {
+          "type": "telegram",
+          "to": {
+            "name": "Михаил"
+          }
+        }
+      },
+      {
+        "id": 2702057061,
+        "create_date": "2025-10-24T14:07:33Z",
         "author": {
           "id": 1239753,
           "first_name": "Тимур",
@@ -795,29 +414,10 @@
         ]
       },
       {
-        "id": 2695238929,
-        "text": "Чат открыт.",
-        "formatted_text": "",
-        "create_date": "2025-10-20T16:45:57Z",
-        "author": {
-          "id": 1245390,
-          "first_name": "Бот",
-          "last_name": "",
-          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
-          "type": "bot",
-          "banned": false,
-          "rights": 8191
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2695315020,
-        "create_date": "2025-10-20T17:44:26Z",
+        "id": 2702058046,
+        "text": "24124",
+        "formatted_text": "24124",
+        "create_date": "2025-10-24T14:08:03Z",
         "author": {
           "id": 1239753,
           "first_name": "Тимур",
@@ -830,978 +430,7 @@
         "channel": {
           "type": "telegram",
           "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 394943615,
-            "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-            "size": 13266,
-            "version": 1,
-            "md5": "84213FEFD49E4C39037522013C8BD9D6",
-            "url": "https://pyrus.com/services/attachment?id=394943615"
-          },
-          {
-            "id": 394943616,
-            "name": "Акт проверки состояния рабочего места.docx",
-            "size": 16258,
-            "version": 1,
-            "md5": "2BEF9278E455CF773162F8954AF35003",
-            "url": "https://pyrus.com/services/attachment?id=394943616"
-          }
-        ]
-      },
-      {
-        "id": 2695315850,
-        "create_date": "2025-10-20T17:45:07Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 394943673,
-            "name": "Акт проверки состояния рабочего места.docx",
-            "size": 16258,
-            "version": 1,
-            "md5": "2BEF9278E455CF773162F8954AF35003",
-            "url": "https://pyrus.com/services/attachment?id=394943673"
-          }
-        ]
-      },
-      {
-        "id": 2697199816,
-        "create_date": "2025-10-21T17:14:30Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "field_updates": [
-          {
-            "id": 29,
-            "type": "text",
-            "name": "Телеграмм ID",
-            "tooltip": "",
-            "value": "5365230223"
-          }
-        ]
-      },
-      {
-        "id": 2697257250,
-        "text": "12345",
-        "formatted_text": "12345",
-        "create_date": "2025-10-21T17:44:23Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2697258163,
-        "text": "Хеллоу",
-        "formatted_text": "Хеллоу",
-        "create_date": "2025-10-21T17:44:51Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395189922,
-            "name": "Заявление.docx",
-            "size": 12948,
-            "version": 1,
-            "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-            "url": "https://pyrus.com/services/attachment?id=395189922"
-          },
-          {
-            "id": 395189923,
-            "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-            "size": 13266,
-            "version": 1,
-            "md5": "84213FEFD49E4C39037522013C8BD9D6",
-            "url": "https://pyrus.com/services/attachment?id=395189923"
-          },
-          {
-            "id": 395189924,
-            "name": "Акт проверки состояния рабочего места.docx",
-            "size": 16258,
-            "version": 1,
-            "md5": "2BEF9278E455CF773162F8954AF35003",
-            "url": "https://pyrus.com/services/attachment?id=395189924"
-          }
-        ]
-      },
-      {
-        "id": 2697279137,
-        "text": "1234",
-        "formatted_text": "1234",
-        "create_date": "2025-10-21T17:56:36Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2697279691,
-        "create_date": "2025-10-21T17:56:55Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395190945,
-            "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-            "size": 13266,
-            "version": 1,
-            "md5": "84213FEFD49E4C39037522013C8BD9D6",
-            "url": "https://pyrus.com/services/attachment?id=395190945"
-          }
-        ]
-      },
-      {
-        "id": 2697308834,
-        "create_date": "2025-10-21T18:12:30Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395192858,
-            "name": "Акт проверки состояния рабочего места.docx",
-            "size": 16258,
-            "version": 1,
-            "md5": "2BEF9278E455CF773162F8954AF35003",
-            "url": "https://pyrus.com/services/attachment?id=395192858"
-          }
-        ]
-      },
-      {
-        "id": 2697321773,
-        "create_date": "2025-10-21T18:20:16Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395193499,
-            "name": "Акт проверки состояния рабочего места.docx",
-            "size": 16258,
-            "version": 1,
-            "md5": "2BEF9278E455CF773162F8954AF35003",
-            "url": "https://pyrus.com/services/attachment?id=395193499"
-          }
-        ]
-      },
-      {
-        "id": 2697323545,
-        "create_date": "2025-10-21T18:21:16Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395193563,
-            "name": "Заявление.docx",
-            "size": 12948,
-            "version": 1,
-            "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-            "url": "https://pyrus.com/services/attachment?id=395193563"
-          }
-        ]
-      },
-      {
-        "id": 2697329446,
-        "create_date": "2025-10-21T18:24:51Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395193787,
-            "name": "Заявление.docx",
-            "size": 12948,
-            "version": 1,
-            "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-            "url": "https://pyrus.com/services/attachment?id=395193787"
-          }
-        ]
-      },
-      {
-        "id": 2697330356,
-        "create_date": "2025-10-21T18:25:22Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395193854,
-            "name": "Заявление.docx",
-            "size": 12948,
-            "version": 1,
-            "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-            "url": "https://pyrus.com/services/attachment?id=395193854"
-          }
-        ]
-      },
-      {
-        "id": 2697389961,
-        "create_date": "2025-10-21T19:01:25Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395196593,
-            "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-            "size": 13266,
-            "version": 1,
-            "md5": "84213FEFD49E4C39037522013C8BD9D6",
-            "url": "https://pyrus.com/services/attachment?id=395196593"
-          }
-        ]
-      },
-      {
-        "id": 2697395223,
-        "create_date": "2025-10-21T19:04:45Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395196894,
-            "name": "Акт проверки состояния рабочего места.docx",
-            "size": 16258,
-            "version": 1,
-            "md5": "2BEF9278E455CF773162F8954AF35003",
-            "url": "https://pyrus.com/services/attachment?id=395196894"
-          }
-        ]
-      },
-      {
-        "id": 2697397919,
-        "create_date": "2025-10-21T19:06:28Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395196987,
-            "name": "Акт проверки состояния рабочего места.docx",
-            "size": 16258,
-            "version": 1,
-            "md5": "2BEF9278E455CF773162F8954AF35003",
-            "url": "https://pyrus.com/services/attachment?id=395196987"
-          }
-        ]
-      },
-      {
-        "id": 2697398589,
-        "text": "12345",
-        "formatted_text": "12345",
-        "create_date": "2025-10-21T19:06:55Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395197028,
-            "name": "Заявление.docx",
-            "size": 12948,
-            "version": 1,
-            "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-            "url": "https://pyrus.com/services/attachment?id=395197028"
-          },
-          {
-            "id": 395197029,
-            "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-            "size": 13266,
-            "version": 1,
-            "md5": "84213FEFD49E4C39037522013C8BD9D6",
-            "url": "https://pyrus.com/services/attachment?id=395197029"
-          }
-        ]
-      },
-      {
-        "id": 2697399757,
-        "text": "👍👍👍",
-        "formatted_text": "👍👍👍",
-        "create_date": "2025-10-21T19:07:43Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2697400608,
-        "create_date": "2025-10-21T19:08:22Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395197068,
-            "name": "ТЕСТ 312170815_АКТ комплексных испытаний СПС и СОУЭ_20251017080736.docx",
-            "size": 16813,
-            "version": 1,
-            "md5": "94A68AF6EC725C41D66E71F07F053F11",
-            "url": "https://pyrus.com/services/attachment?id=395197068"
-          },
-          {
-            "id": 395197069,
-            "name": "АКТ комплексных испытаний СПС и СОУЭ.docx",
-            "size": 18045,
-            "version": 1,
-            "md5": "9F0FCCB8111E29B7253DBA12397E1C20",
-            "url": "https://pyrus.com/services/attachment?id=395197069"
-          },
-          {
-            "id": 395197070,
-            "name": "АПО.docx",
-            "size": 105959,
-            "version": 1,
-            "md5": "32237D94C3CF12A5470ADF1EC5FFE927",
-            "url": "https://pyrus.com/services/attachment?id=395197070"
-          },
-          {
-            "id": 395197071,
-            "name": "ТЗ Техническое задание12345.docx",
-            "size": 66809,
-            "version": 1,
-            "md5": "70D59D93DD86B0CE8C98CE7E14B40911",
-            "url": "https://pyrus.com/services/attachment?id=395197071"
-          },
-          {
-            "id": 395197072,
-            "name": "Практическая часть.docx",
-            "size": 103825,
-            "version": 1,
-            "md5": "66C4B413EFCF611DC4B2DC7DEBF72433",
-            "url": "https://pyrus.com/services/attachment?id=395197072"
-          },
-          {
-            "id": 395197073,
-            "name": "ТЗ Техническое задание.docx",
-            "size": 62248,
-            "version": 1,
-            "md5": "F96D0222980407C29A6E0AAD90AC1DE3",
-            "url": "https://pyrus.com/services/attachment?id=395197073"
-          },
-          {
-            "id": 395197074,
-            "name": "Prilozhenie-_2-_-Tekhnicheskoe-zadanie.docx",
-            "size": 289654,
-            "version": 1,
-            "md5": "4D7941E477589332DE93731F4DEF43B9",
-            "url": "https://pyrus.com/services/attachment?id=395197074"
-          },
-          {
-            "id": 395197075,
-            "name": "Техническое_задание_SCADA.docx",
-            "size": 35104,
-            "version": 1,
-            "md5": "DFB577EEBD02C4D52508383F75B99F42",
-            "url": "https://pyrus.com/services/attachment?id=395197075"
-          },
-          {
-            "id": 395197076,
-            "name": "Java_руководство_для_начинающих_9_е_издание_Герберт_Шилдт.pdf",
-            "size": 144065946,
-            "version": 1,
-            "md5": "54DD6FEEAA13AE933F85EE01C1B12403",
-            "url": "https://pyrus.com/services/attachment?id=395197076"
-          },
-          {
-            "id": 395197077,
-            "name": "307937351_Акт проверки АКБ (шаблон)_20251014055033.docx",
-            "size": 16180,
-            "version": 1,
-            "md5": "D4EFF4BED2984E1FC39F66128C68A399",
-            "url": "https://pyrus.com/services/attachment?id=395197077"
-          },
-          {
-            "id": 395197078,
-            "name": "Диаграмма.drawio",
-            "size": 18843,
-            "version": 1,
-            "md5": "C07E9E68AA50D902DA61F8B3693788F1",
-            "url": "https://pyrus.com/services/attachment?id=395197078"
-          },
-          {
-            "id": 395197079,
-            "name": "13.10.2025 Занятие 3.docx",
-            "size": 14803,
-            "version": 1,
-            "md5": "8E963C2C692F77E6AC249350B3E2A7EB",
-            "url": "https://pyrus.com/services/attachment?id=395197079"
-          },
-          {
-            "id": 395197080,
-            "name": "13.10.2025 Занятие 2.docx",
-            "size": 14614,
-            "version": 1,
-            "md5": "27C02CC2E04AAA928B234A75067A0200",
-            "url": "https://pyrus.com/services/attachment?id=395197080"
-          },
-          {
-            "id": 395197081,
-            "name": "13.10.2025 Занятие 1.docx",
-            "size": 14783,
-            "version": 1,
-            "md5": "878D311A6CF5F17906FA3D733D871D78",
-            "url": "https://pyrus.com/services/attachment?id=395197081"
-          }
-        ]
-      },
-      {
-        "id": 2697408050,
-        "create_date": "2025-10-21T19:13:33Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395197379,
-            "name": "Test.docx",
-            "size": 21450,
-            "version": 1,
-            "md5": "C5E7937B4BB483D74ECBB5FF8019047B",
-            "url": "https://pyrus.com/services/attachment?id=395197379"
-          },
-          {
-            "id": 395197380,
-            "name": "222222222222222222222222222222.docx",
-            "size": 17425,
-            "version": 1,
-            "md5": "352132E17AE27AEF53939BE84A62F518",
-            "url": "https://pyrus.com/services/attachment?id=395197380"
-          },
-          {
-            "id": 395197381,
-            "name": "output.docx",
-            "size": 22588,
-            "version": 1,
-            "md5": "773E644958A2787A49EEA8E1EBF9EB30",
-            "url": "https://pyrus.com/services/attachment?id=395197381"
-          },
-          {
-            "id": 395197382,
-            "name": "1111111111.docx",
-            "size": 17787,
-            "version": 1,
-            "md5": "C0E305C94D58A6D1F42126438210A11C",
-            "url": "https://pyrus.com/services/attachment?id=395197382"
-          },
-          {
-            "id": 395197383,
-            "name": "signature (3).png",
-            "size": 6356,
-            "version": 1,
-            "md5": "38AB5FF7C986AE6C0B392147195C482E",
-            "url": "https://pyrus.com/services/attachment?id=395197383"
-          }
-        ]
-      },
-      {
-        "id": 2697408262,
-        "text": "Привет!",
-        "formatted_text": "Привет!",
-        "create_date": "2025-10-21T19:13:41Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2697408332,
-        "text": "Пока",
-        "formatted_text": "Пока",
-        "create_date": "2025-10-21T19:13:44Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2697408381,
-        "text": "??",
-        "formatted_text": "??",
-        "create_date": "2025-10-21T19:13:46Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2697415175,
-        "create_date": "2025-10-21T19:18:11Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395197614,
-            "name": "Заявление.docx",
-            "size": 12948,
-            "version": 1,
-            "md5": "0DC6E20B24A1F0C1720136C3E3430BD6",
-            "url": "https://pyrus.com/services/attachment?id=395197614"
-          },
-          {
-            "id": 395197615,
-            "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-            "size": 13266,
-            "version": 1,
-            "md5": "84213FEFD49E4C39037522013C8BD9D6",
-            "url": "https://pyrus.com/services/attachment?id=395197615"
-          },
-          {
-            "id": 395197616,
-            "name": "Акт проверки состояния рабочего места.docx",
-            "size": 16258,
-            "version": 1,
-            "md5": "2BEF9278E455CF773162F8954AF35003",
-            "url": "https://pyrus.com/services/attachment?id=395197616"
-          },
-          {
-            "id": 395197617,
-            "name": "Акт обследования рабочих мест.pdf",
-            "size": 176870,
-            "version": 1,
-            "md5": "500F1461FE5468E8FB9E8FBE3EC502F1",
-            "url": "https://pyrus.com/services/attachment?id=395197617"
-          },
-          {
-            "id": 395197618,
-            "name": "photo_2025-10-08_13-15-33.jpg",
-            "size": 168350,
-            "version": 1,
-            "md5": "8CE01E1311996508717DDE31C61FC427",
-            "url": "https://pyrus.com/services/attachment?id=395197618"
-          }
-        ]
-      },
-      {
-        "id": 2697415903,
-        "create_date": "2025-10-21T19:18:43Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395197638,
-            "name": "ТЕСТ 312170815_АКТ комплексных испытаний СПС и СОУЭ_20251017080736.docx",
-            "size": 16813,
-            "version": 1,
-            "md5": "94A68AF6EC725C41D66E71F07F053F11",
-            "url": "https://pyrus.com/services/attachment?id=395197638"
-          },
-          {
-            "id": 395197639,
-            "name": "АКТ комплексных испытаний СПС и СОУЭ.docx",
-            "size": 18045,
-            "version": 1,
-            "md5": "9F0FCCB8111E29B7253DBA12397E1C20",
-            "url": "https://pyrus.com/services/attachment?id=395197639"
-          },
-          {
-            "id": 395197640,
-            "name": "АПО.docx",
-            "size": 105959,
-            "version": 1,
-            "md5": "32237D94C3CF12A5470ADF1EC5FFE927",
-            "url": "https://pyrus.com/services/attachment?id=395197640"
-          },
-          {
-            "id": 395197641,
-            "name": "ТЗ Техническое задание12345.docx",
-            "size": 66809,
-            "version": 1,
-            "md5": "70D59D93DD86B0CE8C98CE7E14B40911",
-            "url": "https://pyrus.com/services/attachment?id=395197641"
-          },
-          {
-            "id": 395197642,
-            "name": "Практическая часть.docx",
-            "size": 103825,
-            "version": 1,
-            "md5": "66C4B413EFCF611DC4B2DC7DEBF72433",
-            "url": "https://pyrus.com/services/attachment?id=395197642"
-          }
-        ]
-      },
-      {
-        "id": 2697604205,
-        "text": "890",
-        "formatted_text": "890",
-        "create_date": "2025-10-22T03:10:55Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2697604500,
-        "create_date": "2025-10-22T03:11:24Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        },
-        "attachments": [
-          {
-            "id": 395211641,
-            "name": "Акт на обследование рабочих мест студентов, проходящих производственную практику (1).docx",
-            "size": 13266,
-            "version": 1,
-            "md5": "84213FEFD49E4C39037522013C8BD9D6",
-            "url": "https://pyrus.com/services/attachment?id=395211641"
-          }
-        ]
-      },
-      {
-        "id": 2697604925,
-        "text": "2432",
-        "formatted_text": "2432",
-        "create_date": "2025-10-22T03:12:40Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2697604931,
-        "text": "56456",
-        "formatted_text": "56456",
-        "create_date": "2025-10-22T03:12:42Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
-          }
-        }
-      },
-      {
-        "id": 2697604936,
-        "text": "1241",
-        "formatted_text": "1241",
-        "create_date": "2025-10-22T03:12:43Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Иванов И.И."
+            "name": "Михаил"
           }
         }
       }

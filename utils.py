@@ -1,18 +1,24 @@
 import asyncio
+from io import BytesIO
 import logging
-from typing import Any, List, Optional
-from aiogram.types import BufferedInputFile, InputMediaDocument
-from aiogram import Bot
-from config import settings
+from typing import Any, Dict, List, Optional
 import httpx
+from aiogram import Bot
+from aiogram.types import BufferedInputFile, InputMediaDocument
 
+from config import settings
 from pyrus_api_service import api_request
 
 logger = logging.getLogger(__name__)
 
+
 async def open_chat(
-    task_id: int, json_data : dict[str, str| dict[str, str]] ={"text": "Чат открыт.", "channel": {"type": "telegram"}}
-)-> dict[str, Any]:
+    task_id: int,
+    json_data: dict[str, str | dict[str, str]] = {
+        "text": "Чат открыт.",
+        "channel": {"type": "telegram"},
+    },
+) -> dict[str, Any]:
     """Open chat in task in Pyrus"""
     try:
         result = await api_request(
@@ -26,12 +32,22 @@ async def open_chat(
         raise
 
 
+def prepare_fields_to_dict(fields: list[dict[str, Any]]) -> dict[int, str]:
+    """Prepares a dictionary from Pyrus fields"""
+    return {
+        field["id"]: field["value"]
+        for field in fields
+        if "id" in field and "value" in field
+    }
+
+
 def find_value(fields: list[dict[str, Any]], field_id: int) -> Optional[str | int]:
     """Finds a value in the fields by its ID"""
 
     return next(
         (field.get("value") for field in fields if field.get("id") == field_id), None
     )
+
 
 async def download_one(
     client: httpx.AsyncClient, attachment: dict[str, Any], headers: dict[str, str]
@@ -68,8 +84,10 @@ async def download_one(
             logger.error(f"Invalid response type for {name}")
             return {"error": "Invalid response"}
 
-        logger.info(f"Downloaded file {name} successfully. Content bytes: {response[:20]}...")
-        
+        logger.info(
+            f"Downloaded file {name} successfully. Content bytes: {response[:20]}..."
+        )
+
         return {"filename": name, "content": response}
 
     except Exception as e:
@@ -87,7 +105,7 @@ async def download_files(
     async with httpx.AsyncClient(
         headers=headers, timeout=timeout, limits=limits
     ) as client:
-        
+
         tasks = [download_one(client, att, headers) for att in attachments]
         results = await asyncio.gather(*tasks, return_exceptions=False)
 
@@ -112,7 +130,10 @@ def chunk_list(seq: List[Any], chunk_size: int = 10) -> List[List[Any]]:
 
 
 async def send_message_to_telegram_chat(
-    bot: Bot, chat_id: int, text: Optional[str], attachments: list[dict[str, Any]] | None
+    bot: Bot,
+    chat_id: int,
+    text: Optional[str],
+    attachments: list[dict[str, Any]] | None,
 ):
     """Sends a message and attachments to a Telegram chat."""
     try:
@@ -123,11 +144,11 @@ async def send_message_to_telegram_chat(
         if not attachments:
             logger.info("No attachments to send of user #%d", chat_id)
             return
-        
+
         processed_files: list[InputMediaDocument] = []
 
         logger.info("Processing attachments for user #%d", chat_id)
-        
+
         for file in attachments:
             if processed_file := process_file_data(file):
                 processed_files.append(InputMediaDocument(media=processed_file))
@@ -146,3 +167,111 @@ async def send_message_to_telegram_chat(
     except Exception as e:
         logger.exception(f"Failed to send message to {chat_id}: {e}")
         raise
+
+
+async def create_user_task(json_data: dict[str, Any]) -> dict[str, Any]:
+    """Creates a new task in Pyrus for a user"""
+    try:
+        assert json_data, "json_data must not be empty"
+        result = await api_request(
+            method="POST", endpoint="/tasks", json_data=json_data
+        )
+        if not isinstance(result, dict):
+            raise TypeError("Expected dict response")
+
+        if task := result.get("task"):
+            logger.info("✅ User task created with ID: %s", task.get("id"))
+            return task
+        return {}
+    except Exception as e:
+        logger.error(f"Failed to create user task: {e}")
+        raise
+
+
+async def check_api_element(tg_id: int, form_id: int, field_id: int) -> dict[str, Any] | None:
+    """Checks if the API user is reachable"""
+    result = await api_request(
+        method="GET", endpoint=f"/forms/{form_id}/register?fld{field_id}={tg_id}"
+    )
+    if not isinstance(result, dict):
+        raise TypeError("Expected dict response")
+
+    tasks = result.get("tasks", [])
+    if not tasks:
+        logger.warning(f"No tasks found for TG ID {tg_id}")
+        return
+
+    task = tasks[0]
+
+    return task
+
+
+
+async def get_unique_file_id(
+    file_bytes: BytesIO,
+    filename: str,
+) -> Optional[str]:
+    """Uploads a file to Pyrus and returns its unique GUID"""
+
+    try:
+        files = {"file": (filename, file_bytes, "application/octet-stream")}
+
+        result = await api_request(
+            "POST", "/files/upload", files=files # type: ignore
+        )
+
+        if isinstance(result, dict):
+            return result.get("guid")
+
+    except Exception as e:
+        logger.error(
+            f"An error occurred while trying to get a unique ID file #{filename}: {e}"
+        )
+        return None
+
+
+async def create_appeal_task(json_data: dict[str, Any]) -> dict[str, Any]:
+    """Creates a new appeal task in Pyrus for a user"""
+    try:
+        assert json_data, "json_data must not be empty"
+        result = await api_request(
+            method="POST", endpoint="/tasks", json_data=json_data
+        )
+        if not isinstance(result, dict):
+            raise TypeError("Expected dict response")
+
+        if task := result.get("task"):
+            logger.info("✅ Appeal task created with ID: %s", task.get("id"))
+            return task
+        return {}
+    except Exception as e:
+        logger.error(f"Failed to create appeal task: {e}")
+        raise
+
+
+def build_payload(
+    text: Optional[str] = None, files: Optional[List[str]] = None,
+) -> Dict[str, Any]:
+    """Generates a payload for sending files via the API"""
+    payload: Dict[str, Any] = {
+        "channel": {
+            "type": "telegram",
+        },
+    }
+
+    if text:
+        payload["text"] = text
+    else:
+        payload["text"] = "..."
+
+    if files:
+        payload["attachments"] = files
+
+    return payload
+
+async def send_comment_in_pyrus(task_id: int, json_data: Dict[str, Any]):
+    """Sends a message to Pyrus"""
+    result = await api_request("POST", f"/tasks/{task_id}/comments",json_data=json_data)
+    task = result.get("task", {}) if isinstance(result, dict) else None
+    if task:
+        logger.info("The comment was sent successfully!")

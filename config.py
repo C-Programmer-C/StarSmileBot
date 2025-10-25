@@ -1,6 +1,5 @@
 import logging
 import os
-from pathlib import Path
 import re
 import sys
 from logging.handlers import RotatingFileHandler
@@ -23,6 +22,13 @@ class Settings(BaseSettings):
         "task_is_new": 31,
     }
     
+    USER_FORM_FIELDS: Dict[str, int] = {
+        "tg_id": 9,
+        "fullname": 6,
+        "telephone": 7,
+        "tg_account": 8,
+    }
+    
     LOGIN: str
     
     MAX_FILE_SIZE: int
@@ -31,6 +37,10 @@ class Settings(BaseSettings):
 
     BASE_URL: str
 
+    CLIENT_FORM_ID: int
+    
+    APPEAL_FORM_ID: int
+    
     DATABASE_PATH: str
 
     class Config:  
