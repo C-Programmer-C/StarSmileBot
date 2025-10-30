@@ -12,27 +12,46 @@ logger = logging.getLogger(__name__)
 media_groups_data: dict[str, list[types.Message]] = {}
 processing_tasks: set[str] = set()
 
-def identify_file_data(message: types.Message) -> tuple[str | None, str | None, int | None]:
+
+def identify_file_data(
+    message: types.Message,
+) -> tuple[str | None, str | None, int | None]:
     """Identify file data from the message"""
     if message.photo:
         file = message.photo[-1]
         return file.file_id, f"{file.file_unique_id}.jpg", file.file_size
     elif message.document:
-        return message.document.file_id, message.document.file_name if message.document.file_name else "document", message.document.file_size
+        return (
+            message.document.file_id,
+            message.document.file_name if message.document.file_name else "document",
+            message.document.file_size,
+        )
     elif message.audio:
-        return message.audio.file_id, f"audio_{message.audio.file_id}.mp3", message.audio.file_size
+        return (
+            message.audio.file_id,
+            f"audio_{message.audio.file_id}.mp3",
+            message.audio.file_size,
+        )
     elif message.voice:
-        return message.voice.file_id, f"voice_{message.voice.file_id}.ogg", message.voice.file_size
+        return (
+            message.voice.file_id,
+            f"voice_{message.voice.file_id}.ogg",
+            message.voice.file_size,
+        )
     elif message.video:
-        return message.video.file_id, f"video_{message.video.file_id}.mp4", message.video.file_size
+        return (
+            message.video.file_id,
+            f"video_{message.video.file_id}.mp4",
+            message.video.file_size,
+        )
     elif message.sticker:
         sticker = message.sticker
 
-        if sticker.is_animated:  
+        if sticker.is_animated:
             ext = "tgs"
-        elif sticker.is_video: 
+        elif sticker.is_video:
             ext = "webm"
-        else:  
+        else:
             ext = "webp"
         return (
             sticker.file_id,
@@ -40,6 +59,7 @@ def identify_file_data(message: types.Message) -> tuple[str | None, str | None, 
             sticker.file_size or 0,
         )
     return None, None, None
+
 
 async def process_single_file_for_comment(
     message: types.Message,
@@ -63,42 +83,46 @@ async def process_single_file_for_comment(
 async def process_single_comment(msg: types.Message, task_id: int):
     comment_text = msg.caption or msg.text or None
 
-    if msg.photo or msg.document or msg.video or msg.audio or msg.voice or msg.sticker:
-        file_result = await process_single_file_for_comment(msg)
+    file_result = await process_single_file_for_comment(msg)
 
-        if isinstance(file_result, str):
-            logger.warning(f"File: {file_result} in message {msg.message_id}")
-            await msg.answer(file_result)
-            return
+    if isinstance(file_result, str):
+        logger.warning(f"File: {file_result} in message {msg.message_id}")
+        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
+        return
 
-        if file_result and len(file_result) == 2:
-            file_id, file_name = file_result
-        else:
-            logger.warning(f"An error occurred while processing the file {file_result}")
-            return
-
-        if not file_id or not file_name:
-            logger.warning(
-                "the file_id or filename is missing from the file {file_result}"
-            )
-            return
-
-        bot = BotClient.get_instance()
-
-        file = await process_file(file_id, file_name, bot)
-        if file:
-            json_data = build_payload(comment_text, [file])
-
-            await send_comment_in_pyrus(task_id, json_data)
-
+    if file_result and len(file_result) == 2:
+        file_id, file_name = file_result
     else:
+        logger.warning(f"An error occurred while processing the file {file_result}")
+        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
+        return
 
-        json_data = build_payload(comment_text, [])
+    if not file_id or not file_name:
+        logger.warning("the file_id or filename is missing from the file {file_result}")
+        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
+        return
+
+    bot = BotClient.get_instance()
+
+    file = await process_file(file_id, file_name, bot)
+
+    if not file:
+        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
+        return
+
+    json_data = build_payload(comment_text, [file])
+
+    try:
         await send_comment_in_pyrus(task_id, json_data)
-    
-    return None
+    except Exception as e:
+        logger.error(
+            f"Failed to process file #file_id: {file_id} #file_name: {file_name}: {e}"
+        )
+        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
+        return
 
-async def process_file(file_id: str, filename: str, bot: Bot) -> Optional[str]:
+
+async def process_file(file_id: str, file_name: str, bot: Bot) -> Optional[str]:
     """Process a file"""
     try:
         file = await bot.get_file(file_id)
@@ -112,10 +136,12 @@ async def process_file(file_id: str, filename: str, bot: Bot) -> Optional[str]:
         await bot.download_file(file_path, destination=file_bytes)
         file_bytes.seek(0)
 
-        unique_file_id: str | None = await get_unique_file_id(file_bytes, filename)
+        unique_file_id: str | None = await get_unique_file_id(file_bytes, file_name)
         return unique_file_id
     except Exception as e:
-        logger.error(f"Failed to process file {filename}: {e}")
+        logger.error(
+            f"Failed to process file #file_id: {file_id} #file_name: {file_name}: {e}"
+        )
         return None
 
 
@@ -141,42 +167,53 @@ async def process_media_group(message: types.Message, tg_id: int, task_id: int):
         processing_tasks.remove(media_group_id)
         if not group_messages:
             return
-        logger.info(f"Processing media group {media_group_id} with {len(group_messages)} messages")
+        logger.info(
+            f"Processing media group {media_group_id} with {len(group_messages)} messages"
+        )
 
         comment_text = group_messages[0].caption or None
         unique_file_ids: list[str] = []
 
         for msg in group_messages:
-            if (
-                msg.photo
-                or msg.document
-                or msg.video
-                or msg.audio
-                or msg.voice
-                or msg.sticker
-            ):
-                file_result = await process_single_file_for_comment(msg)
-                if isinstance(file_result, str):
-                    logger.warning(f"Media group {media_group_id}: {file_result} in message {msg.message_id}")
-                    await msg.answer(file_result)
-                    continue
 
-                if file_result and len(file_result) == 2:
-                    file_id, file_name = file_result
-                else:
-                    logger.warning(f"An error occurred while processing the file {file_result}")
-                    continue
+            file_result = await process_single_file_for_comment(msg)
 
-                bot = BotClient.get_instance()
+            if isinstance(file_result, str):
+                logger.warning(
+                    f"Media group #{media_group_id} has errors: {file_result} in message {msg.message_id}"
+                )
+                msg.reply(
+                    f"Произошла ошибка при обработке неизвестного файла: {file_result}. Попробуйте еще раз."
+                )
+                continue
 
-                if not file_id or not file_name:
-                    logger.warning(
-                        "the file_id or filename is missing from the file {file_result}"
-                    )
-                    continue
-                file = await process_file(file_id, file_name, bot)
-                if file:
-                    unique_file_ids.append(file)
+            if file_result and len(file_result) == 2:
+                file_id, file_name = file_result
+            else:
+                logger.warning(
+                    f"An error occurred while processing the file {file_result}"
+                )
+                msg.reply(
+                    f"Произошла ошибка при обработке неизвестного файла: {file_result}. Попробуйте еще раз."
+                )
+                continue
+
+            bot = BotClient.get_instance()
+
+            if not file_id or not file_name:
+                logger.warning(
+                    "the file_id or filename is missing from the file {file_result}"
+                )
+                continue
+
+            file = await process_file(file_id, file_name, bot)
+            if file:
+                unique_file_ids.append(file)
+            else:
+                msg.reply(
+                    f"Произошла ошибка при обработке файла #{file_name}. Попробуйте еще раз."
+                )
+                continue
 
         json_data = build_payload(comment_text, unique_file_ids)
 

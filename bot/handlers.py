@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 
 start_router = Router()
 
-_user_locks = WeakValueDictionary() # type: ignore
+_user_locks = WeakValueDictionary()  # type: ignore
 
 _locks_map_guard = asyncio.Lock()
 
@@ -60,9 +60,12 @@ async def message_text_handler(message: Message):
         return
 
     lock = await get_user_lock(tg_id)
+
     async with lock:
         try:
-            user = await check_api_element(tg_id, settings.CLIENT_FORM_ID, settings.USER_FORM_FIELDS["tg_id"])
+            user = await check_api_element(
+                tg_id, settings.CLIENT_FORM_ID, settings.USER_FORM_FIELDS["tg_id"]
+            )
 
         except httpx.HTTPStatusError as e:
             if e.response.status_code == 403:
@@ -76,7 +79,9 @@ async def message_text_handler(message: Message):
                 raise
         except Exception as e:
             logger.error(f"Unexpected error for user {tg_id}: {e}")
-            message.answer("Ошибка при обработке запроса. Пожалуйста, попробуйте позже.")
+            message.answer(
+                "Ошибка при обработке запроса. Пожалуйста, попробуйте позже."
+            )
             raise
 
         user_id = user.get("id") if user else None
@@ -93,12 +98,11 @@ async def message_text_handler(message: Message):
                         ],
                     ],
                     resize_keyboard=True,
-                    one_time_keyboard=True,
                 ),
             )
             return
 
-        assert user is not None
+        assert user
 
         logger.info("User %s found in the system. User ID: %s", tg_id, user_id)
 
@@ -110,7 +114,9 @@ async def message_text_handler(message: Message):
             )
             return
 
-        task = await check_api_element(tg_id, settings.APPEAL_FORM_ID, settings.REQUEST_FORM_FIELDS["tg_id"])
+        task = await check_api_element(
+            tg_id, settings.APPEAL_FORM_ID, settings.REQUEST_FORM_FIELDS["tg_id"]
+        )
 
         task_id = task.get("id") if task else None
 
@@ -120,13 +126,21 @@ async def message_text_handler(message: Message):
 
         if not task_id:
 
-            logger.warning(f"No existing appeal task for user {tg_id}. Creating a new one.")
+            logger.warning(
+                f"No existing appeal task for user {tg_id}. Creating a new one."
+            )
 
             fields_dict = prepare_fields_to_dict(fields)
 
-            fullname = fields_dict.get(settings.USER_FORM_FIELDS["fullname"], "Пользователь")
-            telephone = fields_dict.get(settings.USER_FORM_FIELDS["telephone"], "Не указан")
-            tg_account = fields_dict.get(settings.USER_FORM_FIELDS["tg_account"], "Не указан")
+            fullname = fields_dict.get(
+                settings.USER_FORM_FIELDS["fullname"], "Пользователь"
+            )
+            telephone = fields_dict.get(
+                settings.USER_FORM_FIELDS["telephone"], "Не указан"
+            )
+            tg_account = fields_dict.get(
+                settings.USER_FORM_FIELDS["tg_account"], "Не указан"
+            )
 
             json_data: dict[str, Any] = {
                 "form_id": settings.APPEAL_FORM_ID,
@@ -163,7 +177,9 @@ async def message_text_handler(message: Message):
             success = await open_chat(task_id)
 
             if success:
-                logger.info(f"The chat for task #{task_id} has been successfully opened")
+                logger.info(
+                    f"The chat for task #{task_id} has been successfully opened"
+                )
 
     if not task_id:
         await message.answer(
@@ -172,13 +188,15 @@ async def message_text_handler(message: Message):
         return
 
     if message.media_group_id:
-        logger.info(f"The media group #{message.media_group_id} processing for task #{task_id} process has begun")
+        logger.info(
+            f"The media group #{message.media_group_id} processing for task #{task_id} process has begun"
+        )
         await process_media_group(message, tg_id, task_id)
     else:
-        logger.info(f"The message #{message.message_id} processing for task #{task_id} process has begun")
+        logger.info(
+            f"The message #{message.message_id} processing for task #{task_id} process has begun"
+        )
         await process_single_comment(message, task_id)
-
-    await message.answer("Комментарий был успешно обработан. Спасибо!")
 
 
 @start_router.callback_query(F.data == "register", StateFilter(None))
@@ -199,7 +217,7 @@ async def register_callback_handler(
 async def input_fullname_handler(message: Message, state: FSMContext):
     if not message.text:
         await message.answer(
-            "Ошибка: не удалось получить ваше имя. Пожалуйста, введите ваше полное имя:"
+            "Ошибка: не удалось получить ваше имя. Пожалуйста, введите повторно ваше полное имя:"
         )
         return
     fullname = message.text.strip()
@@ -229,8 +247,6 @@ async def input_telephone_handler(message: Message, state: FSMContext):
 
     json_data: dict[str, Any] = {
         "form_id": settings.CLIENT_FORM_ID,
-        "text": "Чат открыт.",
-        "channel": {"type": "telegram"},
         "fields": [
             {"id": settings.USER_FORM_FIELDS["fullname"], "value": fullname},
             {"id": settings.USER_FORM_FIELDS["telephone"], "value": telephone},
@@ -283,11 +299,8 @@ async def input_telephone_handler(message: Message, state: FSMContext):
 
     if result and task_id:
 
-        logger.info(
-            f"Created new appeal task ID {result.get('id')} for user {tg_id}"
-        )
+        logger.info(f"Created new appeal task ID {result.get('id')} for user {tg_id}")
 
-    
     if not task_id:
         logger.error(f"Failed to create appeal task for user {tg_id}")
         await message.answer(
@@ -299,18 +312,5 @@ async def input_telephone_handler(message: Message, state: FSMContext):
 
     if success:
         logger.info(f"The chat for task #{task_id} has been successfully opened")
-
-    # if message.media_group_id:
-    #     logger.info(
-    #         f"The media group #{message.media_group_id} processing for task #{task_id} process has begun"
-    #     )
-    #     await process_media_group(message, tg_id, task_id)
-    # else:
-    #     logger.info(
-    #         f"The message #{message.message_id} processing for task #{task_id} process has begun"
-    #     )
-    #     await process_single_comment(message, task_id)
-
-    # await message.answer("Ваше сообщение было успешно отправлено. Спасибо!")
 
     await state.clear()
