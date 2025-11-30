@@ -81,44 +81,42 @@ async def process_single_file_for_comment(
 
 
 async def process_single_comment(msg: types.Message, task_id: int):
-    comment_text = msg.caption or msg.text or None
+    file = None
 
-    file_result = await process_single_file_for_comment(msg)
+    if msg.text:
+        comment_text = msg.text
 
-    if isinstance(file_result, str):
-        logger.warning(f"File: {file_result} in message {msg.message_id}")
-        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
-        return
-
-    if file_result and len(file_result) == 2:
-        file_id, file_name = file_result
     else:
-        logger.warning(f"An error occurred while processing the file {file_result}")
-        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
-        return
+        file_result = await process_single_file_for_comment(msg)
 
-    if not file_id or not file_name:
-        logger.warning("the file_id or filename is missing from the file {file_result}")
-        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
-        return
+        if isinstance(file_result, str):
+            logger.warning(f"File error: {file_result} in message {msg.message_id}")
+            await msg.reply("Произошла ошибка при обработке файла. Попробуйте еще раз.")
+            return
 
-    bot = BotClient.get_instance()
+        if not file_result or len(file_result) != 2:
+            logger.warning(f"Invalid file_result: {file_result}")
+            await msg.reply("Произошла ошибка при обработке файла. Попробуйте еще раз.")
+            return
 
-    file = await process_file(file_id, file_name, bot)
+        file_id, file_name = file_result
 
-    if not file:
-        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
-        return
+        bot = BotClient.get_instance()
+        file = await process_file(file_id, file_name, bot)
 
-    json_data = build_payload(comment_text, [file])
+        if not file:
+            await msg.reply("Произошла ошибка при обработке файла. Попробуйте еще раз.")
+            return
+
+        comment_text = msg.caption
+
+    json_data = build_payload(comment_text, [file] if file else [])
 
     try:
         await send_comment_in_pyrus(task_id, json_data)
     except Exception as e:
-        logger.error(
-            f"Failed to process file #file_id: {file_id} #file_name: {file_name}: {e}"
-        )
-        msg.reply("Произошла ошибка при обработке данного файла. Попробуйте еще раз.")
+        logger.error(f"Failed to process comment: {e}")
+        await msg.reply("Произошла ошибка при отправке комментария.")
         return
 
 

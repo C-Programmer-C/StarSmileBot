@@ -214,7 +214,6 @@ async def process_webhook(
             logger.exception("Unable to convert chat id to int: %r", chat_id, exc_info=e)
             return JSONResponse(status_code=status.HTTP_200_OK, content={})
 
-        # TODO: add condition to check if task_id == current_task_id in db
         
         await send_message_to_telegram_chat(bot, chat_id, text, files_info)
     except Exception as e:

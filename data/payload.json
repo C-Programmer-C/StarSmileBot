@@ -1,27 +1,57 @@
 {
   "event": "comment",
-  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3NjEzMTQ4ODMsImV4cCI6MTc2MTMxNTc4MywiaXNzIjoiaHR0cDovL3B5cnVzLWlkZW50aXR5LXNlcnZlci5weXJ1cy1wcm9kLnN2Yy5jbHVzdGVyLmxvY2FsIiwiYXVkIjoicHVibGljYXBpIiwiY2xpZW50X2lkIjoiMTFGRjI4OTctRDNFMS00QjAwLUJCRjYtNDFCMzhDM0EwMDcyIiwic3ViIjoiMTI0NTM5MCIsImF1dGhfdGltZSI6MTc2MTMxNDg4MywiaWRwIjoibG9jYWwiLCJzZWNyZXQiOiI5YzJjYjYwZGNmMGFjN2RlNzRlNDNkMjNiM2JlOGU2M2M2NDdmYzEzMTQ5MDkzMzU4ZTQ1NzQ3M2IyYjllNWE2IiwidGltZXN0YW1wIjoiMTc2MTMxNTc4MyIsInNjb3BlIjpbInB1YmxpY2FwaSJdLCJhbXIiOlsicHdkIl19.kZqcZlfXi5wmxPrCQpopEi9iWGZXsoMdPTirPNTOhPfb5R6Ej0EBqf-eX2zRLdD_d79z1hRBm0Ln-FCVtyctjgRCBtQbFhToC0_t_4TbgSpT65o_Tij7WoVWK_LaHQt3Xj5GRD8l3muVv8c3ungNv6oQKSbLenNuwfAQdqoV30pxK_IwudXLiWGdaqNk1V01yUnes6WpLEPwqF08jDRrdlIyW8Ci-e5M6K74tTMYudXn7dUZJQr21aBf-OBANcwZfSLuoYiQa4vSAVd1JxlJEPC7W6cHDca8CJF_G8EvY2yGOzlY1IOf6Cla6aEe0cHjcpnRTNJvpzvUukksHcIyBg",
-  "task_id": 314161932,
+  "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCJ9.eyJuYmYiOjE3NjM0MTI0MTYsImV4cCI6MTc2MzQxMzMxNiwiaXNzIjoiaHR0cDovL3B5cnVzLWlkZW50aXR5LXNlcnZlci5weXJ1cy1wcm9kLnN2Yy5jbHVzdGVyLmxvY2FsIiwiYXVkIjoicHVibGljYXBpIiwiY2xpZW50X2lkIjoiMTFGRjI4OTctRDNFMS00QjAwLUJCRjYtNDFCMzhDM0EwMDcyIiwic3ViIjoiMTI0NTM5MCIsImF1dGhfdGltZSI6MTc2MzQxMjQxNiwiaWRwIjoibG9jYWwiLCJzZWNyZXQiOiIyMzRhNDUyM2JkMDNiMzIyYmFjOGM0NTA0MzgzYTMzMjcyMzczMTVlYjNiYTFkYTA2MDFmMGUyYWYxMDY4YjkzIiwidGltZXN0YW1wIjoiMTc2MzQxMzMxNiIsInNjb3BlIjpbInB1YmxpY2FwaSJdLCJhbXIiOlsicHdkIl19.GHaAsWkUdX85QprC7VVNgyorh88HHzrJnDBVNNh4jXqrhAHlA4MfQdz_T4p3yR3maHgBfZdHJ1NApJx0cRz0S8WszVEzm-31lixGiucjdliLrwXCvHWlJfM5qnw0W6AdpN9IqP9CemuD5XdPQD2aNh8c6-WQObCwlLcjGVCYbOKCShzK5B1lm1E9Oo-0kRCcnRmkJnsTJaucNAPsfvecRc29Nku3DN71JxplBvucJ4b5PqjNgjQQh1kyl7c5JSdWOdmj7JHR0x4364O4uAvBLjIOje3kNMtrZ0Ad2lPlFbzMOS-B7wLwuilmrj--r8QhjAHyciAE5oMrp15De1-E-w",
+  "task_id": 319342675,
   "user_id": 1245390,
   "task": {
-    "id": 314161932,
+    "id": 319342675,
     "text": "Внешние обращения клиента Тесты:",
     "formatted_text": "Внешние обращения клиента Тесты:",
-    "create_date": "2025-10-24T14:07:24Z",
-    "last_modified_date": "2025-10-24T14:08:03Z",
+    "create_date": "2025-11-17T11:53:48Z",
+    "last_modified_date": "2025-11-17T20:46:56Z",
     "author": {
-      "id": 1245390,
-      "first_name": "Бот",
-      "last_name": "",
-      "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
-      "type": "bot",
+      "id": 1239753,
+      "first_name": "Тимур",
+      "last_name": "Ильясов",
+      "email": "Timurilyasov95@gmail.com",
+      "type": "user",
       "banned": false,
-      "rights": 8191
+      "rights": 6143
     },
     "list_ids": [
       2351567
     ],
     "subscribers": [
+      {
+        "person": {
+          "id": 321000,
+          "first_name": "Александр",
+          "last_name": "Савичев",
+          "email": "alexander.savichev@star-smile.ru",
+          "type": "user",
+          "department_id": 77383611,
+          "status": "👍На смене",
+          "avatar_id": 5065,
+          "banned": false,
+          "position": "Директор IT",
+          "messenger": {
+            "type": "Internet"
+          },
+          "phone": "msteams:/l/call/0/0?users=avsavichev@mail.ru",
+          "rights": 8191
+        }
+      },
+      {
+        "person": {
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
+          "banned": false,
+          "rights": 6143
+        }
+      },
       {
         "person": {
           "id": 1245390,
@@ -36,16 +66,18 @@
     ],
     "form_id": 2351567,
     "approvals": [
+      [],
+      [],
       [
         {
           "person": {
-            "id": 1239753,
-            "first_name": "Тимур",
-            "last_name": "Ильясов",
-            "email": "Timurilyasov95@gmail.com",
-            "type": "user",
+            "id": 1258060,
+            "first_name": "",
+            "last_name": "Тест Вн обр клиента",
+            "email": "",
+            "type": "role",
             "banned": false,
-            "rights": 6143
+            "rights": 0
           },
           "approval_choice": "approved"
         }
@@ -53,19 +85,27 @@
       [
         {
           "person": {
-            "id": 1239753,
-            "first_name": "Тимур",
-            "last_name": "Ильясов",
-            "email": "Timurilyasov95@gmail.com",
+            "id": 512243,
+            "first_name": "Игорь",
+            "last_name": "Новичков",
+            "email": "igor.novichkov@star-smile.ru",
             "type": "user",
+            "department_id": 77383611,
+            "status": "📌‌",
+            "avatar_id": 26622,
             "banned": false,
-            "rights": 6143
+            "position": "Директор по управлению изменениями",
+            "messenger": {
+              "type": "Internet"
+            },
+            "phone": "live:.cid.e424246184f9fb90",
+            "rights": 2367
           },
           "approval_choice": "waiting"
         }
       ]
     ],
-    "current_step": 2,
+    "current_step": 4,
     "fields": [
       {
         "id": 1,
@@ -73,13 +113,13 @@
         "name": "Автор",
         "tooltip": "",
         "value": {
-          "id": 1245390,
-          "first_name": "Бот",
-          "last_name": "",
-          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
-          "type": "bot",
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
           "banned": false,
-          "rights": 8191
+          "rights": 6143
         }
       },
       {
@@ -87,14 +127,14 @@
         "type": "creation_date",
         "name": "Дата создания",
         "tooltip": "",
-        "value": "2025-10-24"
+        "value": "2025-11-17"
       },
       {
         "id": 3,
         "type": "step",
         "name": "Этап",
         "tooltip": "",
-        "value": 2
+        "value": 4
       },
       {
         "id": 26,
@@ -102,28 +142,25 @@
         "name": "ФИО",
         "tooltip": "",
         "code": "SenderName",
-        "value": "Михаил"
+        "value": "11111"
       },
       {
         "id": 27,
         "type": "text",
         "name": "Телефон",
-        "tooltip": "",
-        "value": "+895678567"
+        "tooltip": ""
       },
       {
         "id": 28,
         "type": "text",
         "name": "Телеграмм Аккаунт",
-        "tooltip": "",
-        "value": "Russkiy_Monarhist"
+        "tooltip": ""
       },
       {
         "id": 29,
         "type": "text",
         "name": "Телеграмм ID",
-        "tooltip": "",
-        "value": "5365230223"
+        "tooltip": ""
       },
       {
         "id": 5,
@@ -154,42 +191,79 @@
         "code": "Attachments"
       },
       {
-        "id": 14,
-        "type": "multiple_choice",
-        "name": "Вид обращения",
-        "tooltip": ""
-      },
-      {
-        "id": 15,
-        "type": "text",
-        "name": "ID заказа",
-        "tooltip": ""
-      },
-      {
-        "id": 16,
-        "type": "checkmark",
-        "name": "Требуется дополнительное время на ответ от клиента",
+        "id": 33,
+        "type": "title",
+        "name": "Распределение заявки",
         "tooltip": "",
-        "value": "unchecked"
-      },
-      {
-        "id": 17,
-        "type": "person",
-        "name": "Ответственный",
-        "tooltip": ""
-      },
-      {
-        "id": 18,
-        "type": "person",
-        "name": "Передать другому менеджеру",
-        "tooltip": "Укажите менеджера, которому хотите передать задачу"
-      },
-      {
-        "id": 19,
-        "type": "checkmark",
-        "name": "Вернуть задачу всем менеджерам ОС",
-        "tooltip": "",
-        "value": "unchecked"
+        "value": {
+          "checkmark": "unchecked",
+          "fields": [
+            {
+              "id": 34,
+              "type": "catalog",
+              "name": "Регион",
+              "tooltip": "",
+              "parent_id": 33
+            },
+            {
+              "id": 35,
+              "type": "checkmark",
+              "name": "Менеджер КС",
+              "tooltip": "",
+              "default_value": "True",
+              "parent_id": 33,
+              "value": "checked"
+            },
+            {
+              "id": 36,
+              "type": "checkmark",
+              "name": "Клиническая поддержка",
+              "tooltip": "",
+              "parent_id": 33,
+              "value": "unchecked"
+            },
+            {
+              "id": 37,
+              "type": "checkmark",
+              "name": "Физическое производство",
+              "tooltip": "",
+              "parent_id": 33,
+              "value": "unchecked"
+            },
+            {
+              "id": 38,
+              "type": "checkmark",
+              "name": "Отдел качества",
+              "tooltip": "",
+              "parent_id": 33,
+              "value": "unchecked"
+            },
+            {
+              "id": 39,
+              "type": "checkmark",
+              "name": "Логистика",
+              "tooltip": "",
+              "parent_id": 33,
+              "value": "unchecked"
+            },
+            {
+              "id": 40,
+              "type": "checkmark",
+              "name": "IT",
+              "tooltip": "",
+              "parent_id": 33,
+              "value": "unchecked"
+            },
+            {
+              "id": 41,
+              "type": "checkmark",
+              "name": "Юрист",
+              "tooltip": "",
+              "parent_id": 33,
+              "value": "unchecked"
+            }
+          ]
+        }
       },
       {
         "id": 20,
@@ -209,51 +283,39 @@
         }
       },
       {
-        "id": 21,
-        "type": "multiple_choice",
-        "name": "Оценка",
+        "id": 45,
+        "type": "checkmark",
+        "name": "Вы точно хотите завершить заявку?",
         "tooltip": "",
-        "code": "Rating"
-      },
-      {
-        "id": 22,
-        "type": "text",
-        "name": "Комментарий к оценке",
-        "tooltip": "",
-        "code": "Rating Comment"
-      },
-      {
-        "id": 23,
-        "type": "date",
-        "name": "Дата оценки",
-        "tooltip": "",
-        "code": "Rating Date"
+        "value": "unchecked"
       }
     ],
     "steps": [
       {
-        "step": 1,
+        "step": 3,
         "name": "Получение заявки в очереди",
-        "elapsed_time": 9631
+        "elapsed_time": 31987772
       },
       {
-        "step": 2,
-        "name": "Получение заявки",
-        "elapsed_time": 29457
+        "step": 4,
+        "name": "Распределение заявки от клиента",
+        "elapsed_time": 65
       }
     ],
     "comments": [
       {
-        "id": 2702056751,
-        "create_date": "2025-10-24T14:07:24Z",
+        "id": 2740317997,
+        "text": "Внешние обращения клиента Тесты",
+        "formatted_text": "Внешние обращения клиента Тесты",
+        "create_date": "2025-11-17T11:53:48Z",
         "author": {
-          "id": 1245390,
-          "first_name": "Бот",
-          "last_name": "",
-          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
-          "type": "bot",
+          "id": 1239753,
+          "first_name": "Тимур",
+          "last_name": "Ильясов",
+          "email": "Timurilyasov95@gmail.com",
+          "type": "user",
           "banned": false,
-          "rights": 8191
+          "rights": 6143
         },
         "added_list_ids": [
           2351567
@@ -271,28 +333,26 @@
             "name": "ФИО",
             "tooltip": "",
             "code": "SenderName",
-            "value": "Михаил"
+            "value": "11111"
           },
           {
-            "id": 27,
-            "type": "text",
-            "name": "Телефон",
+            "id": 33,
+            "type": "title",
+            "name": "Распределение заявки",
             "tooltip": "",
-            "value": "+895678567"
-          },
-          {
-            "id": 28,
-            "type": "text",
-            "name": "Телеграмм Аккаунт",
-            "tooltip": "",
-            "value": "Russkiy_Monarhist"
-          },
-          {
-            "id": 29,
-            "type": "text",
-            "name": "Телеграмм ID",
-            "tooltip": "",
-            "value": "5365230223"
+            "value": {
+              "fields": [
+                {
+                  "id": 35,
+                  "type": "checkmark",
+                  "name": "Менеджер КС",
+                  "tooltip": "",
+                  "default_value": "True",
+                  "parent_id": 33,
+                  "value": "checked"
+                }
+              ]
+            }
           },
           {
             "id": 20,
@@ -316,19 +376,36 @@
           [
             {
               "person": {
-                "id": 1239753,
-                "first_name": "Тимур",
-                "last_name": "Ильясов",
-                "email": "Timurilyasov95@gmail.com",
-                "type": "user",
+                "id": 1258060,
+                "first_name": "",
+                "last_name": "Тест Вн обр клиента",
+                "email": "",
+                "type": "role",
                 "banned": false,
-                "rights": 6143
+                "rights": 0
               },
-              "step": 1
+              "step": 3
             }
           ]
         ],
         "subscribers_added": [
+          {
+            "id": 321000,
+            "first_name": "Александр",
+            "last_name": "Савичев",
+            "email": "alexander.savichev@star-smile.ru",
+            "type": "user",
+            "department_id": 77383611,
+            "status": "👍На смене",
+            "avatar_id": 5065,
+            "banned": false,
+            "position": "Директор IT",
+            "messenger": {
+              "type": "Internet"
+            },
+            "phone": "msteams:/l/call/0/0?users=avsavichev@mail.ru",
+            "rights": 8191
+          },
           {
             "id": 1245390,
             "first_name": "Бот",
@@ -341,10 +418,10 @@
         ]
       },
       {
-        "id": 2702056875,
+        "id": 2740318187,
         "text": "Чат открыт.",
         "formatted_text": "",
-        "create_date": "2025-10-24T14:07:27Z",
+        "create_date": "2025-11-17T11:53:53Z",
         "author": {
           "id": 1245390,
           "first_name": "Бот",
@@ -357,82 +434,74 @@
         "channel": {
           "type": "telegram",
           "to": {
-            "name": "Михаил"
+            "name": "11111"
           }
         }
       },
       {
-        "id": 2702056954,
-        "text": "1234567890",
-        "formatted_text": "",
-        "create_date": "2025-10-24T14:07:30Z",
+        "id": 2741043744,
+        "create_date": "2025-11-17T20:46:56Z",
         "author": {
-          "id": 1245390,
-          "first_name": "Бот",
-          "last_name": "",
-          "email": "bot@fc9c82ae-8472-4a52-83a2-fad800875d12",
-          "type": "bot",
-          "banned": false,
-          "rights": 8191
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Михаил"
-          }
-        }
-      },
-      {
-        "id": 2702057061,
-        "create_date": "2025-10-24T14:07:33Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
+          "id": 512243,
+          "first_name": "Игорь",
+          "last_name": "Новичков",
+          "email": "igor.novichkov@star-smile.ru",
           "type": "user",
+          "department_id": 77383611,
+          "status": "📌‌",
+          "avatar_id": 26622,
           "banned": false,
-          "rights": 6143
+          "position": "Директор по управлению изменениями",
+          "messenger": {
+            "type": "Internet"
+          },
+          "phone": "live:.cid.e424246184f9fb90",
+          "rights": 2367
         },
         "approval_choice": "approved",
-        "changed_step": 2,
+        "changed_step": 4,
         "approvals_added": [
           [
             {
               "person": {
-                "id": 1239753,
-                "first_name": "Тимур",
-                "last_name": "Ильясов",
-                "email": "Timurilyasov95@gmail.com",
+                "id": 512243,
+                "first_name": "Игорь",
+                "last_name": "Новичков",
+                "email": "igor.novichkov@star-smile.ru",
                 "type": "user",
+                "department_id": 77383611,
+                "status": "📌‌",
+                "avatar_id": 26622,
                 "banned": false,
-                "rights": 6143
+                "position": "Директор по управлению изменениями",
+                "messenger": {
+                  "type": "Internet"
+                },
+                "phone": "live:.cid.e424246184f9fb90",
+                "rights": 2367
               },
-              "step": 2
+              "step": 4
             }
           ]
-        ]
-      },
-      {
-        "id": 2702058046,
-        "text": "24124",
-        "formatted_text": "24124",
-        "create_date": "2025-10-24T14:08:03Z",
-        "author": {
-          "id": 1239753,
-          "first_name": "Тимур",
-          "last_name": "Ильясов",
-          "email": "Timurilyasov95@gmail.com",
-          "type": "user",
-          "banned": false,
-          "rights": 6143
-        },
-        "channel": {
-          "type": "telegram",
-          "to": {
-            "name": "Михаил"
+        ],
+        "comment_as_roles": [
+          {
+            "id": 1258060,
+            "name": "Тест Вн обр клиента",
+            "type": "role"
           }
-        }
+        ],
+        "subscribers_added": [
+          {
+            "id": 1239753,
+            "first_name": "Тимур",
+            "last_name": "Ильясов",
+            "email": "Timurilyasov95@gmail.com",
+            "type": "user",
+            "banned": false,
+            "rights": 6143
+          }
+        ]
       }
     ],
     "is_closed": false

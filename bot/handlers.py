@@ -44,7 +44,7 @@ class RegistrationState(StatesGroup):
 
 @start_router.message(StateFilter(None))
 async def message_text_handler(message: Message):
-
+    
     if not message.from_user:
         message.answer(
             "Ошибка: не удалось получить информацию о пользователе. Попробуйте еще раз."
@@ -66,7 +66,7 @@ async def message_text_handler(message: Message):
             user = await check_api_element(
                 tg_id, settings.CLIENT_FORM_ID, settings.USER_FORM_FIELDS["tg_id"]
             )
-
+        
         except httpx.HTTPStatusError as e:
             if e.response.status_code == 403:
                 logger.warning(f"Access denied for user {tg_id}: {e}")
